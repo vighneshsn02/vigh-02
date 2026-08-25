@@ -1,0 +1,3211 @@
+[
+    {
+        "label": "unittest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "unittest",
+        "description": "unittest",
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "model_registry",
+        "importPath": "vigh_agent.models.registry",
+        "description": "vigh_agent.models.registry",
+        "isExtraImport": true,
+        "detail": "vigh_agent.models.registry",
+        "documentation": {}
+    },
+    {
+        "label": "model_registry",
+        "importPath": "vigh_agent.models.registry",
+        "description": "vigh_agent.models.registry",
+        "isExtraImport": true,
+        "detail": "vigh_agent.models.registry",
+        "documentation": {}
+    },
+    {
+        "label": "model_registry",
+        "importPath": "vigh_agent.models.registry",
+        "description": "vigh_agent.models.registry",
+        "isExtraImport": true,
+        "detail": "vigh_agent.models.registry",
+        "documentation": {}
+    },
+    {
+        "label": "model_registry",
+        "importPath": "vigh_agent.models.registry",
+        "description": "vigh_agent.models.registry",
+        "isExtraImport": true,
+        "detail": "vigh_agent.models.registry",
+        "documentation": {}
+    },
+    {
+        "label": "model_registry",
+        "importPath": "vigh_agent.models.registry",
+        "description": "vigh_agent.models.registry",
+        "isExtraImport": true,
+        "detail": "vigh_agent.models.registry",
+        "documentation": {}
+    },
+    {
+        "label": "tool_registry",
+        "importPath": "vigh_agent.tools.registry",
+        "description": "vigh_agent.tools.registry",
+        "isExtraImport": true,
+        "detail": "vigh_agent.tools.registry",
+        "documentation": {}
+    },
+    {
+        "label": "tool_registry",
+        "importPath": "vigh_agent.tools.registry",
+        "description": "vigh_agent.tools.registry",
+        "isExtraImport": true,
+        "detail": "vigh_agent.tools.registry",
+        "documentation": {}
+    },
+    {
+        "label": "tool_registry",
+        "importPath": "vigh_agent.tools.registry",
+        "description": "vigh_agent.tools.registry",
+        "isExtraImport": true,
+        "detail": "vigh_agent.tools.registry",
+        "documentation": {}
+    },
+    {
+        "label": "tool_registry",
+        "importPath": "vigh_agent.tools.registry",
+        "description": "vigh_agent.tools.registry",
+        "isExtraImport": true,
+        "detail": "vigh_agent.tools.registry",
+        "documentation": {}
+    },
+    {
+        "label": "tempfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "CodeScannerTool",
+        "importPath": "vigh_agent.tools.code_scanner",
+        "description": "vigh_agent.tools.code_scanner",
+        "isExtraImport": true,
+        "detail": "vigh_agent.tools.code_scanner",
+        "documentation": {}
+    },
+    {
+        "label": "CodeScannerTool",
+        "importPath": "vigh_agent.tools.code_scanner",
+        "description": "vigh_agent.tools.code_scanner",
+        "isExtraImport": true,
+        "detail": "vigh_agent.tools.code_scanner",
+        "documentation": {}
+    },
+    {
+        "label": "CodeScannerTool",
+        "importPath": "vigh_agent.tools.code_scanner",
+        "description": "vigh_agent.tools.code_scanner",
+        "isExtraImport": true,
+        "detail": "vigh_agent.tools.code_scanner",
+        "documentation": {}
+    },
+    {
+        "label": "CodeScannerTool",
+        "importPath": "vigh_agent.tools.code_scanner",
+        "description": "vigh_agent.tools.code_scanner",
+        "isExtraImport": true,
+        "detail": "vigh_agent.tools.code_scanner",
+        "documentation": {}
+    },
+    {
+        "label": "CodeScannerTool",
+        "importPath": "vigh_agent.tools.code_scanner",
+        "description": "vigh_agent.tools.code_scanner",
+        "isExtraImport": true,
+        "detail": "vigh_agent.tools.code_scanner",
+        "documentation": {}
+    },
+    {
+        "label": "detect_language",
+        "importPath": "vigh_agent.utils.path_utils",
+        "description": "vigh_agent.utils.path_utils",
+        "isExtraImport": true,
+        "detail": "vigh_agent.utils.path_utils",
+        "documentation": {}
+    },
+    {
+        "label": "is_binary_file",
+        "importPath": "vigh_agent.utils.path_utils",
+        "description": "vigh_agent.utils.path_utils",
+        "isExtraImport": true,
+        "detail": "vigh_agent.utils.path_utils",
+        "documentation": {}
+    },
+    {
+        "label": "resolve_path",
+        "importPath": "vigh_agent.utils.path_utils",
+        "description": "vigh_agent.utils.path_utils",
+        "isExtraImport": true,
+        "detail": "vigh_agent.utils.path_utils",
+        "documentation": {}
+    },
+    {
+        "label": "resolve_path",
+        "importPath": "vigh_agent.utils.path_utils",
+        "description": "vigh_agent.utils.path_utils",
+        "isExtraImport": true,
+        "detail": "vigh_agent.utils.path_utils",
+        "documentation": {}
+    },
+    {
+        "label": "detect_language",
+        "importPath": "vigh_agent.utils.path_utils",
+        "description": "vigh_agent.utils.path_utils",
+        "isExtraImport": true,
+        "detail": "vigh_agent.utils.path_utils",
+        "documentation": {}
+    },
+    {
+        "label": "resolve_path",
+        "importPath": "vigh_agent.utils.path_utils",
+        "description": "vigh_agent.utils.path_utils",
+        "isExtraImport": true,
+        "detail": "vigh_agent.utils.path_utils",
+        "documentation": {}
+    },
+    {
+        "label": "is_ignored",
+        "importPath": "vigh_agent.utils.path_utils",
+        "description": "vigh_agent.utils.path_utils",
+        "isExtraImport": true,
+        "detail": "vigh_agent.utils.path_utils",
+        "documentation": {}
+    },
+    {
+        "label": "is_binary_file",
+        "importPath": "vigh_agent.utils.path_utils",
+        "description": "vigh_agent.utils.path_utils",
+        "isExtraImport": true,
+        "detail": "vigh_agent.utils.path_utils",
+        "documentation": {}
+    },
+    {
+        "label": "detect_language",
+        "importPath": "vigh_agent.utils.path_utils",
+        "description": "vigh_agent.utils.path_utils",
+        "isExtraImport": true,
+        "detail": "vigh_agent.utils.path_utils",
+        "documentation": {}
+    },
+    {
+        "label": "format_file_size",
+        "importPath": "vigh_agent.utils.path_utils",
+        "description": "vigh_agent.utils.path_utils",
+        "isExtraImport": true,
+        "detail": "vigh_agent.utils.path_utils",
+        "documentation": {}
+    },
+    {
+        "label": "resolve_path",
+        "importPath": "vigh_agent.utils.path_utils",
+        "description": "vigh_agent.utils.path_utils",
+        "isExtraImport": true,
+        "detail": "vigh_agent.utils.path_utils",
+        "documentation": {}
+    },
+    {
+        "label": "resolve_path",
+        "importPath": "vigh_agent.utils.path_utils",
+        "description": "vigh_agent.utils.path_utils",
+        "isExtraImport": true,
+        "detail": "vigh_agent.utils.path_utils",
+        "documentation": {}
+    },
+    {
+        "label": "is_binary_file",
+        "importPath": "vigh_agent.utils.path_utils",
+        "description": "vigh_agent.utils.path_utils",
+        "isExtraImport": true,
+        "detail": "vigh_agent.utils.path_utils",
+        "documentation": {}
+    },
+    {
+        "label": "format_file_size",
+        "importPath": "vigh_agent.utils.path_utils",
+        "description": "vigh_agent.utils.path_utils",
+        "isExtraImport": true,
+        "detail": "vigh_agent.utils.path_utils",
+        "documentation": {}
+    },
+    {
+        "label": "is_ignored",
+        "importPath": "vigh_agent.utils.path_utils",
+        "description": "vigh_agent.utils.path_utils",
+        "isExtraImport": true,
+        "detail": "vigh_agent.utils.path_utils",
+        "documentation": {}
+    },
+    {
+        "label": "resolve_path",
+        "importPath": "vigh_agent.utils.path_utils",
+        "description": "vigh_agent.utils.path_utils",
+        "isExtraImport": true,
+        "detail": "vigh_agent.utils.path_utils",
+        "documentation": {}
+    },
+    {
+        "label": "resolve_path",
+        "importPath": "vigh_agent.utils.path_utils",
+        "description": "vigh_agent.utils.path_utils",
+        "isExtraImport": true,
+        "detail": "vigh_agent.utils.path_utils",
+        "documentation": {}
+    },
+    {
+        "label": "is_ignored",
+        "importPath": "vigh_agent.utils.path_utils",
+        "description": "vigh_agent.utils.path_utils",
+        "isExtraImport": true,
+        "detail": "vigh_agent.utils.path_utils",
+        "documentation": {}
+    },
+    {
+        "label": "is_binary_file",
+        "importPath": "vigh_agent.utils.path_utils",
+        "description": "vigh_agent.utils.path_utils",
+        "isExtraImport": true,
+        "detail": "vigh_agent.utils.path_utils",
+        "documentation": {}
+    },
+    {
+        "label": "detect_language",
+        "importPath": "vigh_agent.utils.path_utils",
+        "description": "vigh_agent.utils.path_utils",
+        "isExtraImport": true,
+        "detail": "vigh_agent.utils.path_utils",
+        "documentation": {}
+    },
+    {
+        "label": "resolve_path",
+        "importPath": "vigh_agent.utils.path_utils",
+        "description": "vigh_agent.utils.path_utils",
+        "isExtraImport": true,
+        "detail": "vigh_agent.utils.path_utils",
+        "documentation": {}
+    },
+    {
+        "label": "is_ignored",
+        "importPath": "vigh_agent.utils.path_utils",
+        "description": "vigh_agent.utils.path_utils",
+        "isExtraImport": true,
+        "detail": "vigh_agent.utils.path_utils",
+        "documentation": {}
+    },
+    {
+        "label": "is_binary_file",
+        "importPath": "vigh_agent.utils.path_utils",
+        "description": "vigh_agent.utils.path_utils",
+        "isExtraImport": true,
+        "detail": "vigh_agent.utils.path_utils",
+        "documentation": {}
+    },
+    {
+        "label": "ReadFileTool",
+        "importPath": "vigh_agent.tools.file_tools",
+        "description": "vigh_agent.tools.file_tools",
+        "isExtraImport": true,
+        "detail": "vigh_agent.tools.file_tools",
+        "documentation": {}
+    },
+    {
+        "label": "WriteFileTool",
+        "importPath": "vigh_agent.tools.file_tools",
+        "description": "vigh_agent.tools.file_tools",
+        "isExtraImport": true,
+        "detail": "vigh_agent.tools.file_tools",
+        "documentation": {}
+    },
+    {
+        "label": "EditFileTool",
+        "importPath": "vigh_agent.tools.file_tools",
+        "description": "vigh_agent.tools.file_tools",
+        "isExtraImport": true,
+        "detail": "vigh_agent.tools.file_tools",
+        "documentation": {}
+    },
+    {
+        "label": "ListDirTool",
+        "importPath": "vigh_agent.tools.file_tools",
+        "description": "vigh_agent.tools.file_tools",
+        "isExtraImport": true,
+        "detail": "vigh_agent.tools.file_tools",
+        "documentation": {}
+    },
+    {
+        "label": "ReadFileTool",
+        "importPath": "vigh_agent.tools.file_tools",
+        "description": "vigh_agent.tools.file_tools",
+        "isExtraImport": true,
+        "detail": "vigh_agent.tools.file_tools",
+        "documentation": {}
+    },
+    {
+        "label": "WriteFileTool",
+        "importPath": "vigh_agent.tools.file_tools",
+        "description": "vigh_agent.tools.file_tools",
+        "isExtraImport": true,
+        "detail": "vigh_agent.tools.file_tools",
+        "documentation": {}
+    },
+    {
+        "label": "EditFileTool",
+        "importPath": "vigh_agent.tools.file_tools",
+        "description": "vigh_agent.tools.file_tools",
+        "isExtraImport": true,
+        "detail": "vigh_agent.tools.file_tools",
+        "documentation": {}
+    },
+    {
+        "label": "ListDirTool",
+        "importPath": "vigh_agent.tools.file_tools",
+        "description": "vigh_agent.tools.file_tools",
+        "isExtraImport": true,
+        "detail": "vigh_agent.tools.file_tools",
+        "documentation": {}
+    },
+    {
+        "label": "ReadFileTool",
+        "importPath": "vigh_agent.tools.file_tools",
+        "description": "vigh_agent.tools.file_tools",
+        "isExtraImport": true,
+        "detail": "vigh_agent.tools.file_tools",
+        "documentation": {}
+    },
+    {
+        "label": "WriteFileTool",
+        "importPath": "vigh_agent.tools.file_tools",
+        "description": "vigh_agent.tools.file_tools",
+        "isExtraImport": true,
+        "detail": "vigh_agent.tools.file_tools",
+        "documentation": {}
+    },
+    {
+        "label": "EditFileTool",
+        "importPath": "vigh_agent.tools.file_tools",
+        "description": "vigh_agent.tools.file_tools",
+        "isExtraImport": true,
+        "detail": "vigh_agent.tools.file_tools",
+        "documentation": {}
+    },
+    {
+        "label": "ListDirTool",
+        "importPath": "vigh_agent.tools.file_tools",
+        "description": "vigh_agent.tools.file_tools",
+        "isExtraImport": true,
+        "detail": "vigh_agent.tools.file_tools",
+        "documentation": {}
+    },
+    {
+        "label": "SearchCodeTool",
+        "importPath": "vigh_agent.tools.search_tools",
+        "description": "vigh_agent.tools.search_tools",
+        "isExtraImport": true,
+        "detail": "vigh_agent.tools.search_tools",
+        "documentation": {}
+    },
+    {
+        "label": "OutlineSymbolsTool",
+        "importPath": "vigh_agent.tools.search_tools",
+        "description": "vigh_agent.tools.search_tools",
+        "isExtraImport": true,
+        "detail": "vigh_agent.tools.search_tools",
+        "documentation": {}
+    },
+    {
+        "label": "SearchCodeTool",
+        "importPath": "vigh_agent.tools.search_tools",
+        "description": "vigh_agent.tools.search_tools",
+        "isExtraImport": true,
+        "detail": "vigh_agent.tools.search_tools",
+        "documentation": {}
+    },
+    {
+        "label": "OutlineSymbolsTool",
+        "importPath": "vigh_agent.tools.search_tools",
+        "description": "vigh_agent.tools.search_tools",
+        "isExtraImport": true,
+        "detail": "vigh_agent.tools.search_tools",
+        "documentation": {}
+    },
+    {
+        "label": "undo_manager",
+        "importPath": "vigh_agent.utils.diff_utils",
+        "description": "vigh_agent.utils.diff_utils",
+        "isExtraImport": true,
+        "detail": "vigh_agent.utils.diff_utils",
+        "documentation": {}
+    },
+    {
+        "label": "create_rich_diff",
+        "importPath": "vigh_agent.utils.diff_utils",
+        "description": "vigh_agent.utils.diff_utils",
+        "isExtraImport": true,
+        "detail": "vigh_agent.utils.diff_utils",
+        "documentation": {}
+    },
+    {
+        "label": "undo_manager",
+        "importPath": "vigh_agent.utils.diff_utils",
+        "description": "vigh_agent.utils.diff_utils",
+        "isExtraImport": true,
+        "detail": "vigh_agent.utils.diff_utils",
+        "documentation": {}
+    },
+    {
+        "label": "generate_diff",
+        "importPath": "vigh_agent.utils.diff_utils",
+        "description": "vigh_agent.utils.diff_utils",
+        "isExtraImport": true,
+        "detail": "vigh_agent.utils.diff_utils",
+        "documentation": {}
+    },
+    {
+        "label": "apply_snippet_edit",
+        "importPath": "vigh_agent.utils.diff_utils",
+        "description": "vigh_agent.utils.diff_utils",
+        "isExtraImport": true,
+        "detail": "vigh_agent.utils.diff_utils",
+        "documentation": {}
+    },
+    {
+        "label": "undo_manager",
+        "importPath": "vigh_agent.utils.diff_utils",
+        "description": "vigh_agent.utils.diff_utils",
+        "isExtraImport": true,
+        "detail": "vigh_agent.utils.diff_utils",
+        "documentation": {}
+    },
+    {
+        "label": "undo_manager",
+        "importPath": "vigh_agent.utils.diff_utils",
+        "description": "vigh_agent.utils.diff_utils",
+        "isExtraImport": true,
+        "detail": "vigh_agent.utils.diff_utils",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Generator",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Generator",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Generator",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Generator",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Generator",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Iterable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Set",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "AgentSession",
+        "importPath": "vigh_agent.core.session",
+        "description": "vigh_agent.core.session",
+        "isExtraImport": true,
+        "detail": "vigh_agent.core.session",
+        "documentation": {}
+    },
+    {
+        "label": "AgentSession",
+        "importPath": "vigh_agent.core.session",
+        "description": "vigh_agent.core.session",
+        "isExtraImport": true,
+        "detail": "vigh_agent.core.session",
+        "documentation": {}
+    },
+    {
+        "label": "AgentSession",
+        "importPath": "vigh_agent.core.session",
+        "description": "vigh_agent.core.session",
+        "isExtraImport": true,
+        "detail": "vigh_agent.core.session",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationMemory",
+        "importPath": "vigh_agent.core.memory",
+        "description": "vigh_agent.core.memory",
+        "isExtraImport": true,
+        "detail": "vigh_agent.core.memory",
+        "documentation": {}
+    },
+    {
+        "label": "ToolCall",
+        "importPath": "vigh_agent.models.provider",
+        "description": "vigh_agent.models.provider",
+        "isExtraImport": true,
+        "detail": "vigh_agent.models.provider",
+        "documentation": {}
+    },
+    {
+        "label": "StreamChunk",
+        "importPath": "vigh_agent.models.provider",
+        "description": "vigh_agent.models.provider",
+        "isExtraImport": true,
+        "detail": "vigh_agent.models.provider",
+        "documentation": {}
+    },
+    {
+        "label": "BaseProvider",
+        "importPath": "vigh_agent.models.provider",
+        "description": "vigh_agent.models.provider",
+        "isExtraImport": true,
+        "detail": "vigh_agent.models.provider",
+        "documentation": {}
+    },
+    {
+        "label": "BaseProvider",
+        "importPath": "vigh_agent.models.provider",
+        "description": "vigh_agent.models.provider",
+        "isExtraImport": true,
+        "detail": "vigh_agent.models.provider",
+        "documentation": {}
+    },
+    {
+        "label": "StreamChunk",
+        "importPath": "vigh_agent.models.provider",
+        "description": "vigh_agent.models.provider",
+        "isExtraImport": true,
+        "detail": "vigh_agent.models.provider",
+        "documentation": {}
+    },
+    {
+        "label": "ToolCall",
+        "importPath": "vigh_agent.models.provider",
+        "description": "vigh_agent.models.provider",
+        "isExtraImport": true,
+        "detail": "vigh_agent.models.provider",
+        "documentation": {}
+    },
+    {
+        "label": "BaseProvider",
+        "importPath": "vigh_agent.models.provider",
+        "description": "vigh_agent.models.provider",
+        "isExtraImport": true,
+        "detail": "vigh_agent.models.provider",
+        "documentation": {}
+    },
+    {
+        "label": "StreamChunk",
+        "importPath": "vigh_agent.models.provider",
+        "description": "vigh_agent.models.provider",
+        "isExtraImport": true,
+        "detail": "vigh_agent.models.provider",
+        "documentation": {}
+    },
+    {
+        "label": "ToolCall",
+        "importPath": "vigh_agent.models.provider",
+        "description": "vigh_agent.models.provider",
+        "isExtraImport": true,
+        "detail": "vigh_agent.models.provider",
+        "documentation": {}
+    },
+    {
+        "label": "BaseProvider",
+        "importPath": "vigh_agent.models.provider",
+        "description": "vigh_agent.models.provider",
+        "isExtraImport": true,
+        "detail": "vigh_agent.models.provider",
+        "documentation": {}
+    },
+    {
+        "label": "SYSTEM_PROMPT",
+        "importPath": "vigh_agent.core.prompts",
+        "description": "vigh_agent.core.prompts",
+        "isExtraImport": true,
+        "detail": "vigh_agent.core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "vigh_agent.config",
+        "description": "vigh_agent.config",
+        "isExtraImport": true,
+        "detail": "vigh_agent.config",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "vigh_agent.config",
+        "description": "vigh_agent.config",
+        "isExtraImport": true,
+        "detail": "vigh_agent.config",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "vigh_agent.config",
+        "description": "vigh_agent.config",
+        "isExtraImport": true,
+        "detail": "vigh_agent.config",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "vigh_agent.config",
+        "description": "vigh_agent.config",
+        "isExtraImport": true,
+        "detail": "vigh_agent.config",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "vigh_agent.config",
+        "description": "vigh_agent.config",
+        "isExtraImport": true,
+        "detail": "vigh_agent.config",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAICompatibleProvider",
+        "importPath": "vigh_agent.models.lmstudio_provider",
+        "description": "vigh_agent.models.lmstudio_provider",
+        "isExtraImport": true,
+        "detail": "vigh_agent.models.lmstudio_provider",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAICompatibleProvider",
+        "importPath": "vigh_agent.models.lmstudio_provider",
+        "description": "vigh_agent.models.lmstudio_provider",
+        "isExtraImport": true,
+        "detail": "vigh_agent.models.lmstudio_provider",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "OllamaProvider",
+        "importPath": "vigh_agent.models.ollama_provider",
+        "description": "vigh_agent.models.ollama_provider",
+        "isExtraImport": true,
+        "detail": "vigh_agent.models.ollama_provider",
+        "documentation": {}
+    },
+    {
+        "label": "CloudProvider",
+        "importPath": "vigh_agent.models.cloud_provider",
+        "description": "vigh_agent.models.cloud_provider",
+        "isExtraImport": true,
+        "detail": "vigh_agent.models.cloud_provider",
+        "documentation": {}
+    },
+    {
+        "label": "Completer",
+        "importPath": "prompt_toolkit.completion",
+        "description": "prompt_toolkit.completion",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit.completion",
+        "documentation": {}
+    },
+    {
+        "label": "Completion",
+        "importPath": "prompt_toolkit.completion",
+        "description": "prompt_toolkit.completion",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit.completion",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "prompt_toolkit.document",
+        "description": "prompt_toolkit.document",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit.document",
+        "documentation": {}
+    },
+    {
+        "label": "Console",
+        "importPath": "rich.console",
+        "description": "rich.console",
+        "isExtraImport": true,
+        "detail": "rich.console",
+        "documentation": {}
+    },
+    {
+        "label": "Console",
+        "importPath": "rich.console",
+        "description": "rich.console",
+        "isExtraImport": true,
+        "detail": "rich.console",
+        "documentation": {}
+    },
+    {
+        "label": "Console",
+        "importPath": "rich.console",
+        "description": "rich.console",
+        "isExtraImport": true,
+        "detail": "rich.console",
+        "documentation": {}
+    },
+    {
+        "label": "Console",
+        "importPath": "rich.console",
+        "description": "rich.console",
+        "isExtraImport": true,
+        "detail": "rich.console",
+        "documentation": {}
+    },
+    {
+        "label": "Console",
+        "importPath": "rich.console",
+        "description": "rich.console",
+        "isExtraImport": true,
+        "detail": "rich.console",
+        "documentation": {}
+    },
+    {
+        "label": "Table",
+        "importPath": "rich.table",
+        "description": "rich.table",
+        "isExtraImport": true,
+        "detail": "rich.table",
+        "documentation": {}
+    },
+    {
+        "label": "Table",
+        "importPath": "rich.table",
+        "description": "rich.table",
+        "isExtraImport": true,
+        "detail": "rich.table",
+        "documentation": {}
+    },
+    {
+        "label": "Table",
+        "importPath": "rich.table",
+        "description": "rich.table",
+        "isExtraImport": true,
+        "detail": "rich.table",
+        "documentation": {}
+    },
+    {
+        "label": "Table",
+        "importPath": "rich.table",
+        "description": "rich.table",
+        "isExtraImport": true,
+        "detail": "rich.table",
+        "documentation": {}
+    },
+    {
+        "label": "Panel",
+        "importPath": "rich.panel",
+        "description": "rich.panel",
+        "isExtraImport": true,
+        "detail": "rich.panel",
+        "documentation": {}
+    },
+    {
+        "label": "Panel",
+        "importPath": "rich.panel",
+        "description": "rich.panel",
+        "isExtraImport": true,
+        "detail": "rich.panel",
+        "documentation": {}
+    },
+    {
+        "label": "Panel",
+        "importPath": "rich.panel",
+        "description": "rich.panel",
+        "isExtraImport": true,
+        "detail": "rich.panel",
+        "documentation": {}
+    },
+    {
+        "label": "Panel",
+        "importPath": "rich.panel",
+        "description": "rich.panel",
+        "isExtraImport": true,
+        "detail": "rich.panel",
+        "documentation": {}
+    },
+    {
+        "label": "Panel",
+        "importPath": "rich.panel",
+        "description": "rich.panel",
+        "isExtraImport": true,
+        "detail": "rich.panel",
+        "documentation": {}
+    },
+    {
+        "label": "Syntax",
+        "importPath": "rich.syntax",
+        "description": "rich.syntax",
+        "isExtraImport": true,
+        "detail": "rich.syntax",
+        "documentation": {}
+    },
+    {
+        "label": "Syntax",
+        "importPath": "rich.syntax",
+        "description": "rich.syntax",
+        "isExtraImport": true,
+        "detail": "rich.syntax",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "rich.text",
+        "description": "rich.text",
+        "isExtraImport": true,
+        "detail": "rich.text",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "rich.text",
+        "description": "rich.text",
+        "isExtraImport": true,
+        "detail": "rich.text",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "rich.text",
+        "description": "rich.text",
+        "isExtraImport": true,
+        "detail": "rich.text",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "rich.text",
+        "description": "rich.text",
+        "isExtraImport": true,
+        "detail": "rich.text",
+        "documentation": {}
+    },
+    {
+        "label": "Markdown",
+        "importPath": "rich.markdown",
+        "description": "rich.markdown",
+        "isExtraImport": true,
+        "detail": "rich.markdown",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "PromptSession",
+        "importPath": "prompt_toolkit",
+        "description": "prompt_toolkit",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "prompt_toolkit.styles",
+        "description": "prompt_toolkit.styles",
+        "isExtraImport": true,
+        "detail": "prompt_toolkit.styles",
+        "documentation": {}
+    },
+    {
+        "label": "print_banner",
+        "importPath": "vigh_agent.banner",
+        "description": "vigh_agent.banner",
+        "isExtraImport": true,
+        "detail": "vigh_agent.banner",
+        "documentation": {}
+    },
+    {
+        "label": "print_divider",
+        "importPath": "vigh_agent.banner",
+        "description": "vigh_agent.banner",
+        "isExtraImport": true,
+        "detail": "vigh_agent.banner",
+        "documentation": {}
+    },
+    {
+        "label": "VighAgent",
+        "importPath": "vigh_agent.core.agent",
+        "description": "vigh_agent.core.agent",
+        "isExtraImport": true,
+        "detail": "vigh_agent.core.agent",
+        "documentation": {}
+    },
+    {
+        "label": "AgentEvent",
+        "importPath": "vigh_agent.core.agent",
+        "description": "vigh_agent.core.agent",
+        "isExtraImport": true,
+        "detail": "vigh_agent.core.agent",
+        "documentation": {}
+    },
+    {
+        "label": "VighAgent",
+        "importPath": "vigh_agent.core.agent",
+        "description": "vigh_agent.core.agent",
+        "isExtraImport": true,
+        "detail": "vigh_agent.core.agent",
+        "documentation": {}
+    },
+    {
+        "label": "AgentEvent",
+        "importPath": "vigh_agent.core.agent",
+        "description": "vigh_agent.core.agent",
+        "isExtraImport": true,
+        "detail": "vigh_agent.core.agent",
+        "documentation": {}
+    },
+    {
+        "label": "render_scan_results",
+        "importPath": "vigh_agent.terminal.formatters",
+        "description": "vigh_agent.terminal.formatters",
+        "isExtraImport": true,
+        "detail": "vigh_agent.terminal.formatters",
+        "documentation": {}
+    },
+    {
+        "label": "render_diff",
+        "importPath": "vigh_agent.terminal.formatters",
+        "description": "vigh_agent.terminal.formatters",
+        "isExtraImport": true,
+        "detail": "vigh_agent.terminal.formatters",
+        "documentation": {}
+    },
+    {
+        "label": "render_code_file",
+        "importPath": "vigh_agent.terminal.formatters",
+        "description": "vigh_agent.terminal.formatters",
+        "isExtraImport": true,
+        "detail": "vigh_agent.terminal.formatters",
+        "documentation": {}
+    },
+    {
+        "label": "render_markdown",
+        "importPath": "vigh_agent.terminal.formatters",
+        "description": "vigh_agent.terminal.formatters",
+        "isExtraImport": true,
+        "detail": "vigh_agent.terminal.formatters",
+        "documentation": {}
+    },
+    {
+        "label": "render_scan_results",
+        "importPath": "vigh_agent.terminal.formatters",
+        "description": "vigh_agent.terminal.formatters",
+        "isExtraImport": true,
+        "detail": "vigh_agent.terminal.formatters",
+        "documentation": {}
+    },
+    {
+        "label": "VighCompleter",
+        "importPath": "vigh_agent.terminal.completer",
+        "description": "vigh_agent.terminal.completer",
+        "isExtraImport": true,
+        "detail": "vigh_agent.terminal.completer",
+        "documentation": {}
+    },
+    {
+        "label": "ast",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "ast",
+        "description": "ast",
+        "detail": "ast",
+        "documentation": {}
+    },
+    {
+        "label": "BaseTool",
+        "importPath": "vigh_agent.tools.base",
+        "description": "vigh_agent.tools.base",
+        "isExtraImport": true,
+        "detail": "vigh_agent.tools.base",
+        "documentation": {}
+    },
+    {
+        "label": "BaseTool",
+        "importPath": "vigh_agent.tools.base",
+        "description": "vigh_agent.tools.base",
+        "isExtraImport": true,
+        "detail": "vigh_agent.tools.base",
+        "documentation": {}
+    },
+    {
+        "label": "BaseTool",
+        "importPath": "vigh_agent.tools.base",
+        "description": "vigh_agent.tools.base",
+        "isExtraImport": true,
+        "detail": "vigh_agent.tools.base",
+        "documentation": {}
+    },
+    {
+        "label": "BaseTool",
+        "importPath": "vigh_agent.tools.base",
+        "description": "vigh_agent.tools.base",
+        "isExtraImport": true,
+        "detail": "vigh_agent.tools.base",
+        "documentation": {}
+    },
+    {
+        "label": "BaseTool",
+        "importPath": "vigh_agent.tools.base",
+        "description": "vigh_agent.tools.base",
+        "isExtraImport": true,
+        "detail": "vigh_agent.tools.base",
+        "documentation": {}
+    },
+    {
+        "label": "BaseTool",
+        "importPath": "vigh_agent.tools.base",
+        "description": "vigh_agent.tools.base",
+        "isExtraImport": true,
+        "detail": "vigh_agent.tools.base",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "RunCommandTool",
+        "importPath": "vigh_agent.tools.execution_tools",
+        "description": "vigh_agent.tools.execution_tools",
+        "isExtraImport": true,
+        "detail": "vigh_agent.tools.execution_tools",
+        "documentation": {}
+    },
+    {
+        "label": "RunCommandTool",
+        "importPath": "vigh_agent.tools.execution_tools",
+        "description": "vigh_agent.tools.execution_tools",
+        "isExtraImport": true,
+        "detail": "vigh_agent.tools.execution_tools",
+        "documentation": {}
+    },
+    {
+        "label": "GitStatusTool",
+        "importPath": "vigh_agent.tools.git_tools",
+        "description": "vigh_agent.tools.git_tools",
+        "isExtraImport": true,
+        "detail": "vigh_agent.tools.git_tools",
+        "documentation": {}
+    },
+    {
+        "label": "GitDiffTool",
+        "importPath": "vigh_agent.tools.git_tools",
+        "description": "vigh_agent.tools.git_tools",
+        "isExtraImport": true,
+        "detail": "vigh_agent.tools.git_tools",
+        "documentation": {}
+    },
+    {
+        "label": "fnmatch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "fnmatch",
+        "description": "fnmatch",
+        "detail": "fnmatch",
+        "documentation": {}
+    },
+    {
+        "label": "difflib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "difflib",
+        "description": "difflib",
+        "detail": "difflib",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Body",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "StreamingResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "FileResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "socket",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "socket",
+        "description": "socket",
+        "detail": "socket",
+        "documentation": {}
+    },
+    {
+        "label": "webbrowser",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "webbrowser",
+        "description": "webbrowser",
+        "detail": "webbrowser",
+        "documentation": {}
+    },
+    {
+        "label": "threading",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "threading",
+        "description": "threading",
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "uvicorn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uvicorn",
+        "description": "uvicorn",
+        "detail": "uvicorn",
+        "documentation": {}
+    },
+    {
+        "label": "StaticFiles",
+        "importPath": "fastapi.staticfiles",
+        "description": "fastapi.staticfiles",
+        "isExtraImport": true,
+        "detail": "fastapi.staticfiles",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "vigh_agent.web.api",
+        "description": "vigh_agent.web.api",
+        "isExtraImport": true,
+        "detail": "vigh_agent.web.api",
+        "documentation": {}
+    },
+    {
+        "label": "web_session",
+        "importPath": "vigh_agent.web.api",
+        "description": "vigh_agent.web.api",
+        "isExtraImport": true,
+        "detail": "vigh_agent.web.api",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "__version__",
+        "importPath": "vigh_agent",
+        "description": "vigh_agent",
+        "isExtraImport": true,
+        "detail": "vigh_agent",
+        "documentation": {}
+    },
+    {
+        "label": "__agent_name__",
+        "importPath": "vigh_agent",
+        "description": "vigh_agent",
+        "isExtraImport": true,
+        "detail": "vigh_agent",
+        "documentation": {}
+    },
+    {
+        "label": "run_cli_session",
+        "importPath": "vigh_agent.terminal.repl",
+        "description": "vigh_agent.terminal.repl",
+        "isExtraImport": true,
+        "detail": "vigh_agent.terminal.repl",
+        "documentation": {}
+    },
+    {
+        "label": "handle_model_switch",
+        "importPath": "vigh_agent.terminal.repl",
+        "description": "vigh_agent.terminal.repl",
+        "isExtraImport": true,
+        "detail": "vigh_agent.terminal.repl",
+        "documentation": {}
+    },
+    {
+        "label": "start_web_server",
+        "importPath": "vigh_agent.web.server",
+        "description": "vigh_agent.web.server",
+        "isExtraImport": true,
+        "detail": "vigh_agent.web.server",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "importPath": "vigh_agent.cli",
+        "description": "vigh_agent.cli",
+        "isExtraImport": true,
+        "detail": "vigh_agent.cli",
+        "documentation": {}
+    },
+    {
+        "label": "setup",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "find_packages",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "TestModelsAndRegistry",
+        "kind": 6,
+        "importPath": "tests.test_models",
+        "description": "tests.test_models",
+        "peekOfCode": "class TestModelsAndRegistry(unittest.TestCase):\n    def test_tool_schemas_generated(self):\n        schemas = tool_registry.get_schemas()\n        self.assertGreater(len(schemas), 5)\n        names = [s[\"function\"][\"name\"] for s in schemas]\n        self.assertIn(\"read_file\", names)\n        self.assertIn(\"write_file\", names)\n        self.assertIn(\"edit_file\", names)\n        self.assertIn(\"scan_folder\", names)\n        self.assertIn(\"search_code\", names)",
+        "detail": "tests.test_models",
+        "documentation": {}
+    },
+    {
+        "label": "TestCodeScanner",
+        "kind": 6,
+        "importPath": "tests.test_scanner",
+        "description": "tests.test_scanner",
+        "peekOfCode": "class TestCodeScanner(unittest.TestCase):\n    def setUp(self):\n        self.temp_dir = tempfile.TemporaryDirectory()\n        self.workspace = Path(self.temp_dir.name)\n        # Create sample codebase\n        (self.workspace / \"src\").mkdir()\n        # Python file with TODO and function\n        py_file = self.workspace / \"src\" / \"app.py\"\n        py_file.write_text(\"\"\"\n# TODO: Implement user caching",
+        "detail": "tests.test_scanner",
+        "documentation": {}
+    },
+    {
+        "label": "compute_metrics",
+        "kind": 2,
+        "importPath": "tests.test_scanner",
+        "description": "tests.test_scanner",
+        "peekOfCode": "def compute_metrics(x: int) -> int:\n    # BUG: edge case with zero\n    return x * 42\n\"\"\", encoding=\"utf-8\")\n        # Security risk test file\n        sec_file = self.workspace / \"src\" / \"auth.py\"\n        sec_file.write_text(\"\"\"\nAPI_KEY = \"sk-1234567890abcdef1234567890abcdef\"\ndef run_dynamic(cmd):\n    eval(cmd)",
+        "detail": "tests.test_scanner",
+        "documentation": {}
+    },
+    {
+        "label": "run_dynamic",
+        "kind": 2,
+        "importPath": "tests.test_scanner",
+        "description": "tests.test_scanner",
+        "peekOfCode": "def run_dynamic(cmd):\n    eval(cmd)\n\"\"\", encoding=\"utf-8\")\n        # JavaScript file\n        js_file = self.workspace / \"index.js\"\n        js_file.write_text(\"\"\"\nfunction startServer() {\n  console.log(\"Starting...\");\n}\n\"\"\", encoding=\"utf-8\")",
+        "detail": "tests.test_scanner",
+        "documentation": {}
+    },
+    {
+        "label": "API_KEY",
+        "kind": 5,
+        "importPath": "tests.test_scanner",
+        "description": "tests.test_scanner",
+        "peekOfCode": "API_KEY = \"sk-1234567890abcdef1234567890abcdef\"\ndef run_dynamic(cmd):\n    eval(cmd)\n\"\"\", encoding=\"utf-8\")\n        # JavaScript file\n        js_file = self.workspace / \"index.js\"\n        js_file.write_text(\"\"\"\nfunction startServer() {\n  console.log(\"Starting...\");\n}",
+        "detail": "tests.test_scanner",
+        "documentation": {}
+    },
+    {
+        "label": "TestTools",
+        "kind": 6,
+        "importPath": "tests.test_tools",
+        "description": "tests.test_tools",
+        "peekOfCode": "class TestTools(unittest.TestCase):\n    def setUp(self):\n        self.temp_dir = tempfile.TemporaryDirectory()\n        self.workspace = Path(self.temp_dir.name)\n    def tearDown(self):\n        self.temp_dir.cleanup()\n    def test_write_and_read_file(self):\n        writer = WriteFileTool()\n        reader = ReadFileTool()\n        write_res = writer.run(",
+        "detail": "tests.test_tools",
+        "documentation": {}
+    },
+    {
+        "label": "Calculator",
+        "kind": 6,
+        "importPath": "tests.test_tools",
+        "description": "tests.test_tools",
+        "peekOfCode": "class Calculator:\n    def multiply(self, x, y):\n        return x * y\n    async def async_divide(self, x, y):\n        return x / y\n\"\"\",\n            workspace_root=str(self.workspace)\n        )\n        searcher = SearchCodeTool()\n        search_res = searcher.run(query=\"multiply\", workspace_root=str(self.workspace))",
+        "detail": "tests.test_tools",
+        "documentation": {}
+    },
+    {
+        "label": "AgentEvent",
+        "kind": 6,
+        "importPath": "vigh_agent.core.agent",
+        "description": "vigh_agent.core.agent",
+        "peekOfCode": "class AgentEvent(BaseModel):\n    \"\"\"Event emitted during agent execution.\"\"\"\n    type: str  # 'token', 'tool_start', 'tool_end', 'diff', 'error', 'done'\n    content: Optional[str] = None\n    data: Optional[Dict[str, Any]] = None\nclass VighAgent:\n    \"\"\"Core autonomous coding agent.\"\"\"\n    def __init__(self, session: Optional[AgentSession] = None):\n        self.session = session or AgentSession()\n        self.memory = ConversationMemory()",
+        "detail": "vigh_agent.core.agent",
+        "documentation": {}
+    },
+    {
+        "label": "VighAgent",
+        "kind": 6,
+        "importPath": "vigh_agent.core.agent",
+        "description": "vigh_agent.core.agent",
+        "peekOfCode": "class VighAgent:\n    \"\"\"Core autonomous coding agent.\"\"\"\n    def __init__(self, session: Optional[AgentSession] = None):\n        self.session = session or AgentSession()\n        self.memory = ConversationMemory()\n        self.max_steps = 10\n    def chat_stream(\n        self,\n        user_input: str,\n        on_event: Optional[Callable[[AgentEvent], None]] = None",
+        "detail": "vigh_agent.core.agent",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationMemory",
+        "kind": 6,
+        "importPath": "vigh_agent.core.memory",
+        "description": "vigh_agent.core.memory",
+        "peekOfCode": "class ConversationMemory:\n    \"\"\"Manages conversational context and message history.\"\"\"\n    def __init__(self, system_prompt: str = SYSTEM_PROMPT, max_messages: int = 50):\n        self.system_prompt = system_prompt\n        self.max_messages = max_messages\n        self.messages: List[Dict[str, Any]] = []\n        self.reset()\n    def reset(self):\n        \"\"\"Clears history and re-inserts the system prompt.\"\"\"\n        self.messages = [",
+        "detail": "vigh_agent.core.memory",
+        "documentation": {}
+    },
+    {
+        "label": "SYSTEM_PROMPT",
+        "kind": 5,
+        "importPath": "vigh_agent.core.prompts",
+        "description": "vigh_agent.core.prompts",
+        "peekOfCode": "SYSTEM_PROMPT = \"\"\"You are \"VIGH-02 AI AGENT\", an autonomous, offline-first expert coding AI agent designed to assist developers directly in their local environment.\nYou operate seamlessly both 100% offline using locally installed AI models (such as Qwen 2.5 Coder, DeepSeek Coder, Llama 3.2) and online with cloud models.\nYou have access to tools that allow you to interact directly with the user's workspace:\n1. `scan_folder`: Deeply scans directories, reveals project file trees, language stats, frameworks, security findings, and open TODOs.\n2. `read_file`: Reads files from any path (with optional line ranges).\n3. `write_file`: Creates or overwrites files with new code/content (automatically creates folders and saves undo history).\n4. `edit_file`: Surgically modifies existing code files by replacing matching snippets (preserves rest of code and records undo history).\n5. `search_code`: Fast grep/regex search across all files in workspace.\n6. `outline_symbols`: Extracts classes, functions, routes, and symbols from a file.\n7. `list_dir`: Lists directory contents.",
+        "detail": "vigh_agent.core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "CODE_REVIEW_PROMPT",
+        "kind": 5,
+        "importPath": "vigh_agent.core.prompts",
+        "description": "vigh_agent.core.prompts",
+        "peekOfCode": "CODE_REVIEW_PROMPT = \"\"\"Please perform a deep, rigorous code review of the following code.\nAnalyze:\n1. 🐛 Potential Bugs & Edge Cases\n2. 🛡️ Security Vulnerabilities (injection, credentials, unsafe operations)\n3. ⚡ Performance Optimizations & Time/Space Complexity\n4. 🧹 Clean Code & Architectural Refactoring\n5. 🧪 Suggested Unit Test Cases\nProvide specific, actionable code snippets for all recommended improvements.\"\"\"\nREFACTOR_PROMPT = \"\"\"Please refactor the following code to improve its modularity, readability, error resilience, and performance while preserving its exact functionality.\"\"\"",
+        "detail": "vigh_agent.core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "REFACTOR_PROMPT",
+        "kind": 5,
+        "importPath": "vigh_agent.core.prompts",
+        "description": "vigh_agent.core.prompts",
+        "peekOfCode": "REFACTOR_PROMPT = \"\"\"Please refactor the following code to improve its modularity, readability, error resilience, and performance while preserving its exact functionality.\"\"\"",
+        "detail": "vigh_agent.core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "AgentSession",
+        "kind": 6,
+        "importPath": "vigh_agent.core.session",
+        "description": "vigh_agent.core.session",
+        "peekOfCode": "class AgentSession:\n    \"\"\"Encapsulates the runtime context for an active user session.\"\"\"\n    def __init__(self, workspace_path: Optional[str] = None):\n        self.workspace_root = resolve_path(workspace_path or os.getcwd())\n        self.provider_name: str = \"\"\n        self.model_name: str = \"\"\n        self.provider: Optional[BaseProvider] = None\n        self.total_tool_calls: int = 0\n        self.files_modified: int = 0\n        self.initialize_provider()",
+        "detail": "vigh_agent.core.session",
+        "documentation": {}
+    },
+    {
+        "label": "CloudProvider",
+        "kind": 6,
+        "importPath": "vigh_agent.models.cloud_provider",
+        "description": "vigh_agent.models.cloud_provider",
+        "peekOfCode": "class CloudProvider(OpenAICompatibleProvider):\n    \"\"\"Cloud-based LLM provider (requires internet and API key).\"\"\"\n    def __init__(self, provider_name: str, api_key: str, model: str):\n        base_url = CLOUD_ENDPOINTS.get(provider_name.lower(), \"https://api.openai.com/v1\")\n        super().__init__(\n            name=provider_name,\n            base_url=base_url,\n            model=model,\n            api_key=api_key\n        )",
+        "detail": "vigh_agent.models.cloud_provider",
+        "documentation": {}
+    },
+    {
+        "label": "CLOUD_ENDPOINTS",
+        "kind": 5,
+        "importPath": "vigh_agent.models.cloud_provider",
+        "description": "vigh_agent.models.cloud_provider",
+        "peekOfCode": "CLOUD_ENDPOINTS = {\n    \"openai\": \"https://api.openai.com/v1\",\n    \"groq\": \"https://api.groq.com/openai/v1\",\n    \"openrouter\": \"https://openrouter.ai/api/v1\",\n    \"gemini\": \"https://generativelanguage.googleapis.com/v1beta/openai\"\n}\nclass CloudProvider(OpenAICompatibleProvider):\n    \"\"\"Cloud-based LLM provider (requires internet and API key).\"\"\"\n    def __init__(self, provider_name: str, api_key: str, model: str):\n        base_url = CLOUD_ENDPOINTS.get(provider_name.lower(), \"https://api.openai.com/v1\")",
+        "detail": "vigh_agent.models.cloud_provider",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAICompatibleProvider",
+        "kind": 6,
+        "importPath": "vigh_agent.models.lmstudio_provider",
+        "description": "vigh_agent.models.lmstudio_provider",
+        "peekOfCode": "class OpenAICompatibleProvider(BaseProvider):\n    \"\"\"\n    Connects to LM Studio, LocalAI, vLLM, llama.cpp, or custom OpenAI-compatible server.\n    \"\"\"\n    def __init__(\n        self,\n        name: str = \"lmstudio\",\n        base_url: str = \"http://127.0.0.1:1234/v1\",\n        model: str = \"local-model\",\n        api_key: str = \"\"",
+        "detail": "vigh_agent.models.lmstudio_provider",
+        "documentation": {}
+    },
+    {
+        "label": "OllamaProvider",
+        "kind": 6,
+        "importPath": "vigh_agent.models.ollama_provider",
+        "description": "vigh_agent.models.ollama_provider",
+        "peekOfCode": "class OllamaProvider(BaseProvider):\n    \"\"\"Local Ollama LLM provider.\"\"\"\n    def __init__(self, base_url: str = \"http://127.0.0.1:11434\", model: str = \"qwen2.5-coder:7b\"):\n        super().__init__(\"ollama\", base_url, model)\n        self.session = requests.Session()\n    def health_check(self) -> bool:\n        \"\"\"Verify Ollama is running and responsive.\"\"\"\n        try:\n            r = self.session.get(f\"{self.base_url}/api/tags\", timeout=3.0)\n            return r.status_code == 200",
+        "detail": "vigh_agent.models.ollama_provider",
+        "documentation": {}
+    },
+    {
+        "label": "ToolCall",
+        "kind": 6,
+        "importPath": "vigh_agent.models.provider",
+        "description": "vigh_agent.models.provider",
+        "peekOfCode": "class ToolCall(BaseModel):\n    \"\"\"Represents a structured tool call from the model.\"\"\"\n    id: str = \"\"\n    name: str\n    arguments: Dict[str, Any] = Field(default_factory=dict)\nclass StreamChunk(BaseModel):\n    \"\"\"Represents a chunk during streaming generation.\"\"\"\n    content: str = \"\"\n    tool_calls: List[ToolCall] = Field(default_factory=list)\n    done: bool = False",
+        "detail": "vigh_agent.models.provider",
+        "documentation": {}
+    },
+    {
+        "label": "StreamChunk",
+        "kind": 6,
+        "importPath": "vigh_agent.models.provider",
+        "description": "vigh_agent.models.provider",
+        "peekOfCode": "class StreamChunk(BaseModel):\n    \"\"\"Represents a chunk during streaming generation.\"\"\"\n    content: str = \"\"\n    tool_calls: List[ToolCall] = Field(default_factory=list)\n    done: bool = False\nclass BaseProvider(ABC):\n    \"\"\"Abstract Base Class for LLM Providers.\"\"\"\n    def __init__(self, name: str, base_url: str, model: str):\n        self.name = name\n        self.base_url = base_url.rstrip(\"/\")",
+        "detail": "vigh_agent.models.provider",
+        "documentation": {}
+    },
+    {
+        "label": "BaseProvider",
+        "kind": 6,
+        "importPath": "vigh_agent.models.provider",
+        "description": "vigh_agent.models.provider",
+        "peekOfCode": "class BaseProvider(ABC):\n    \"\"\"Abstract Base Class for LLM Providers.\"\"\"\n    def __init__(self, name: str, base_url: str, model: str):\n        self.name = name\n        self.base_url = base_url.rstrip(\"/\")\n        self.model = model\n    @abstractmethod\n    def health_check(self) -> bool:\n        \"\"\"Checks if the provider endpoint is reachable.\"\"\"\n        pass",
+        "detail": "vigh_agent.models.provider",
+        "documentation": {}
+    },
+    {
+        "label": "ModelRegistry",
+        "kind": 6,
+        "importPath": "vigh_agent.models.registry",
+        "description": "vigh_agent.models.registry",
+        "peekOfCode": "class ModelRegistry:\n    \"\"\"Discovers, catalogs, and instantiates model providers.\"\"\"\n    CODING_MODEL_PRIORITY = [\n        \"qwen2.5-coder:7b\",\n        \"qwen2.5-coder:32b\",\n        \"qwen2.5-coder:14b\",\n        \"qwen2.5-coder:3b\",\n        \"qwen2.5-coder:1.5b\",\n        \"deepseek-coder:6.7b\",\n        \"deepseek-coder:1.3b\",",
+        "detail": "vigh_agent.models.registry",
+        "documentation": {}
+    },
+    {
+        "label": "model_registry",
+        "kind": 5,
+        "importPath": "vigh_agent.models.registry",
+        "description": "vigh_agent.models.registry",
+        "peekOfCode": "model_registry = ModelRegistry()",
+        "detail": "vigh_agent.models.registry",
+        "documentation": {}
+    },
+    {
+        "label": "VighCompleter",
+        "kind": 6,
+        "importPath": "vigh_agent.terminal.completer",
+        "description": "vigh_agent.terminal.completer",
+        "peekOfCode": "class VighCompleter(Completer):\n    \"\"\"Custom auto-completer for commands and file paths.\"\"\"\n    def __init__(self, workspace_path_getter):\n        self.workspace_path_getter = workspace_path_getter\n    def get_completions(self, document: Document, complete_event) -> Iterable[Completion]:\n        text_before_cursor = document.text_before_cursor\n        # Complete slash commands\n        if text_before_cursor.startswith(\"/\"):\n            word = text_before_cursor\n            for cmd, desc in SLASH_COMMANDS:",
+        "detail": "vigh_agent.terminal.completer",
+        "documentation": {}
+    },
+    {
+        "label": "SLASH_COMMANDS",
+        "kind": 5,
+        "importPath": "vigh_agent.terminal.completer",
+        "description": "vigh_agent.terminal.completer",
+        "peekOfCode": "SLASH_COMMANDS = [\n    (\"/scan\", \"Deep scan workspace structure, stats & security\"),\n    (\"/edit\", \"Edit a file in workspace: /edit <path>\"),\n    (\"/read\", \"View syntax-highlighted file: /read <path>\"),\n    (\"/diff\", \"Show git or recent file modifications\"),\n    (\"/undo\", \"Revert last file change\"),\n    (\"/model\", \"Switch local AI model (Ollama / LM Studio)\"),\n    (\"/web\", \"Launch modern browser Web UI\"),\n    (\"/cd\", \"Change active workspace directory: /cd <path>\"),\n    (\"/clear\", \"Clear terminal screen\"),",
+        "detail": "vigh_agent.terminal.completer",
+        "documentation": {}
+    },
+    {
+        "label": "render_markdown",
+        "kind": 2,
+        "importPath": "vigh_agent.terminal.formatters",
+        "description": "vigh_agent.terminal.formatters",
+        "peekOfCode": "def render_markdown(text: str):\n    \"\"\"Render markdown formatted text to terminal.\"\"\"\n    md = Markdown(text)\n    console.print(md)\ndef render_diff(diff_str: str, file_path: str = \"\"):\n    \"\"\"Render colored unified diff to terminal.\"\"\"\n    diff_text = create_rich_diff(diff_str)\n    console.print(\n        Panel(\n            diff_text,",
+        "detail": "vigh_agent.terminal.formatters",
+        "documentation": {}
+    },
+    {
+        "label": "render_diff",
+        "kind": 2,
+        "importPath": "vigh_agent.terminal.formatters",
+        "description": "vigh_agent.terminal.formatters",
+        "peekOfCode": "def render_diff(diff_str: str, file_path: str = \"\"):\n    \"\"\"Render colored unified diff to terminal.\"\"\"\n    diff_text = create_rich_diff(diff_str)\n    console.print(\n        Panel(\n            diff_text,\n            title=f\"[bold cyan]Diff Preview: {file_path}[/bold cyan]\",\n            border_style=\"cyan\",\n            expand=False\n        )",
+        "detail": "vigh_agent.terminal.formatters",
+        "documentation": {}
+    },
+    {
+        "label": "render_code_file",
+        "kind": 2,
+        "importPath": "vigh_agent.terminal.formatters",
+        "description": "vigh_agent.terminal.formatters",
+        "peekOfCode": "def render_code_file(content: str, file_path: str, start_line: int = 1):\n    \"\"\"Render syntax highlighted code with line numbers.\"\"\"\n    lang = detect_language(Path(file_path))\n    syntax = Syntax(\n        content,\n        lang,\n        theme=\"monokai\",\n        line_numbers=True,\n        start_line=start_line,\n        word_wrap=True",
+        "detail": "vigh_agent.terminal.formatters",
+        "documentation": {}
+    },
+    {
+        "label": "render_scan_results",
+        "kind": 2,
+        "importPath": "vigh_agent.terminal.formatters",
+        "description": "vigh_agent.terminal.formatters",
+        "peekOfCode": "def render_scan_results(scan_data: Dict[str, Any]):\n    \"\"\"Render deep code scanner results in rich tables.\"\"\"\n    console.print(Panel(f\"[bold cyan]🔍 Codebase Scan: {scan_data.get('path')}[/bold cyan]\", border_style=\"cyan\"))\n    # Stats Table\n    stats_table = Table(title=\"[bold yellow]Project Statistics[/bold yellow]\", border_style=\"dim yellow\")\n    stats_table.add_column(\"Metric\", style=\"cyan\")\n    stats_table.add_column(\"Value\", style=\"bold white\")\n    stats_table.add_row(\"Total Files\", str(scan_data.get(\"total_files\", 0)))\n    stats_table.add_row(\"Total Directories\", str(scan_data.get(\"total_dirs\", 0)))\n    stats_table.add_row(\"Total Lines of Code\", f\"{scan_data.get('total_lines_of_code', 0):,}\")",
+        "detail": "vigh_agent.terminal.formatters",
+        "documentation": {}
+    },
+    {
+        "label": "console",
+        "kind": 5,
+        "importPath": "vigh_agent.terminal.formatters",
+        "description": "vigh_agent.terminal.formatters",
+        "peekOfCode": "console = Console()\ndef render_markdown(text: str):\n    \"\"\"Render markdown formatted text to terminal.\"\"\"\n    md = Markdown(text)\n    console.print(md)\ndef render_diff(diff_str: str, file_path: str = \"\"):\n    \"\"\"Render colored unified diff to terminal.\"\"\"\n    diff_text = create_rich_diff(diff_str)\n    console.print(\n        Panel(",
+        "detail": "vigh_agent.terminal.formatters",
+        "documentation": {}
+    },
+    {
+        "label": "run_cli_session",
+        "kind": 2,
+        "importPath": "vigh_agent.terminal.repl",
+        "description": "vigh_agent.terminal.repl",
+        "peekOfCode": "def run_cli_session(workspace_dir: Optional[str] = None, model_name: Optional[str] = None):\n    \"\"\"Starts the interactive CLI coding session.\"\"\"\n    session = AgentSession(workspace_path=workspace_dir)\n    if model_name:\n        session.initialize_provider(model_name=model_name)\n    agent = VighAgent(session=session)\n    completer = VighCompleter(lambda: str(session.workspace_root))\n    prompt_session = PromptSession(completer=completer)\n    print_banner(\n        model_name=session.model_name,",
+        "detail": "vigh_agent.terminal.repl",
+        "documentation": {}
+    },
+    {
+        "label": "stream_agent_response",
+        "kind": 2,
+        "importPath": "vigh_agent.terminal.repl",
+        "description": "vigh_agent.terminal.repl",
+        "peekOfCode": "def stream_agent_response(agent: VighAgent, user_prompt: str):\n    \"\"\"Streams live response tokens and executes tools with real-time UI.\"\"\"\n    console.print(f\"[bold cyan]🤖 VIGH-02 ({agent.session.model_name}):[/bold cyan]\")\n    current_text = \"\"\n    for event in agent.chat_stream(user_prompt):\n        if event.type == \"token\" and event.content:\n            try:\n                sys.stdout.write(event.content)\n                sys.stdout.flush()\n            except Exception:",
+        "detail": "vigh_agent.terminal.repl",
+        "documentation": {}
+    },
+    {
+        "label": "handle_interactive_edit",
+        "kind": 2,
+        "importPath": "vigh_agent.terminal.repl",
+        "description": "vigh_agent.terminal.repl",
+        "peekOfCode": "def handle_interactive_edit(agent: VighAgent, file_path: str):\n    \"\"\"Guides user through requesting an AI edit for a specific file.\"\"\"\n    p = agent.session.workspace_root / file_path\n    if not p.exists():\n        console.print(f\"[yellow]File '{file_path}' does not exist yet. Describe what you'd like to generate:[/yellow]\")\n    else:\n        console.print(f\"[cyan]What changes would you like to make to '{file_path}'?[/cyan]\")\n    prompt = input(\"Edit prompt: \").strip()\n    if prompt:\n        full_query = f\"Please edit or create the file '{file_path}'. Instructions: {prompt}\"",
+        "detail": "vigh_agent.terminal.repl",
+        "documentation": {}
+    },
+    {
+        "label": "handle_model_switch",
+        "kind": 2,
+        "importPath": "vigh_agent.terminal.repl",
+        "description": "vigh_agent.terminal.repl",
+        "peekOfCode": "def handle_model_switch(session: AgentSession):\n    \"\"\"Interactive model selection in CLI.\"\"\"\n    available = model_registry.scan_all_models()\n    if not available:\n        console.print(\"[bold red]No local models detected. Please ensure Ollama or LM Studio is running.[/bold red]\")\n        return\n    table = Table(title=\"[bold cyan]Available Local AI Models[/bold cyan]\", border_style=\"cyan\")\n    table.add_column(\"#\", style=\"bold yellow\")\n    table.add_column(\"Model Name\", style=\"bold white\")\n    table.add_column(\"Provider\", style=\"green\")",
+        "detail": "vigh_agent.terminal.repl",
+        "documentation": {}
+    },
+    {
+        "label": "print_help",
+        "kind": 2,
+        "importPath": "vigh_agent.terminal.repl",
+        "description": "vigh_agent.terminal.repl",
+        "peekOfCode": "def print_help():\n    \"\"\"Prints command cheat sheet.\"\"\"\n    table = Table(title=\"[bold cyan]VIGH-02 AI AGENT Commands[/bold cyan]\", border_style=\"dim cyan\")\n    table.add_column(\"Command\", style=\"bold yellow\")\n    table.add_column(\"Description\", style=\"white\")\n    table.add_row(\"/scan\", \"Deeply scan folder structure, stats, languages, security vulnerabilities, and TODOs\")\n    table.add_row(\"/edit <file>\", \"Directly request the AI to modify or create a specific file\")\n    table.add_row(\"/read <file>\", \"View syntax-highlighted code with line numbers\")\n    table.add_row(\"/diff\", \"Show git working tree or recent file diffs\")\n    table.add_row(\"/undo\", \"Instantly rollback the last file edit/creation\")",
+        "detail": "vigh_agent.terminal.repl",
+        "documentation": {}
+    },
+    {
+        "label": "console",
+        "kind": 5,
+        "importPath": "vigh_agent.terminal.repl",
+        "description": "vigh_agent.terminal.repl",
+        "peekOfCode": "console = Console(highlight=False)\nPT_STYLE = Style.from_dict({\n    \"prompt\": \"ansicyan bold\",\n    \"path\": \"ansiyellow bold\",\n})\ndef run_cli_session(workspace_dir: Optional[str] = None, model_name: Optional[str] = None):\n    \"\"\"Starts the interactive CLI coding session.\"\"\"\n    session = AgentSession(workspace_path=workspace_dir)\n    if model_name:\n        session.initialize_provider(model_name=model_name)",
+        "detail": "vigh_agent.terminal.repl",
+        "documentation": {}
+    },
+    {
+        "label": "PT_STYLE",
+        "kind": 5,
+        "importPath": "vigh_agent.terminal.repl",
+        "description": "vigh_agent.terminal.repl",
+        "peekOfCode": "PT_STYLE = Style.from_dict({\n    \"prompt\": \"ansicyan bold\",\n    \"path\": \"ansiyellow bold\",\n})\ndef run_cli_session(workspace_dir: Optional[str] = None, model_name: Optional[str] = None):\n    \"\"\"Starts the interactive CLI coding session.\"\"\"\n    session = AgentSession(workspace_path=workspace_dir)\n    if model_name:\n        session.initialize_provider(model_name=model_name)\n    agent = VighAgent(session=session)",
+        "detail": "vigh_agent.terminal.repl",
+        "documentation": {}
+    },
+    {
+        "label": "BaseTool",
+        "kind": 6,
+        "importPath": "vigh_agent.tools.base",
+        "description": "vigh_agent.tools.base",
+        "peekOfCode": "class BaseTool(ABC):\n    \"\"\"Abstract base class for all agent tools.\"\"\"\n    name: str = \"\"\n    description: str = \"\"\n    parameters: Dict[str, Any] = {}\n    @abstractmethod\n    def run(self, **kwargs) -> Dict[str, Any]:\n        \"\"\"Execute the tool with given arguments.\"\"\"\n        pass\n    def to_openai_schema(self) -> Dict[str, Any]:",
+        "detail": "vigh_agent.tools.base",
+        "documentation": {}
+    },
+    {
+        "label": "CodeScannerTool",
+        "kind": 6,
+        "importPath": "vigh_agent.tools.code_scanner",
+        "description": "vigh_agent.tools.code_scanner",
+        "peekOfCode": "class CodeScannerTool(BaseTool):\n    name = \"scan_folder\"\n    description = \"Recursively scans a folder or codebase, produces a file tree, language statistics, project summary, TODOs, and security check.\"\n    parameters = {\n        \"type\": \"object\",\n        \"properties\": {\n            \"path\": {\n                \"type\": \"string\",\n                \"description\": \"Folder path to scan (defaults to workspace root / current directory).\"\n            },",
+        "detail": "vigh_agent.tools.code_scanner",
+        "documentation": {}
+    },
+    {
+        "label": "SECURITY_PATTERNS",
+        "kind": 5,
+        "importPath": "vigh_agent.tools.code_scanner",
+        "description": "vigh_agent.tools.code_scanner",
+        "peekOfCode": "SECURITY_PATTERNS = [\n    (r\"(?i)(api[_-]?key|secret[_-]?key|auth[_-]?token|password|passwd|private[_-]?key)\\s*[:=]\\s*['\\\"][A-Za-z0-9_\\-]{8,}['\\\"]\", \"High\", \"Potential Hardcoded Secret / API Key\"),\n    (r\"(?i)eval\\s*\\(\", \"Medium\", \"Use of eval() can lead to arbitrary code execution\"),\n    (r\"(?i)exec\\s*\\(\", \"Medium\", \"Use of exec() can execute dynamic code unsafely\"),\n    (r\"(?i)subprocess\\.call\\(.*shell\\s*=\\s*True\", \"High\", \"subprocess with shell=True is prone to command injection\"),\n    (r\"(?i)os\\.system\\s*\\(\", \"Medium\", \"os.system() is prone to command injection\"),\n    (r\"(?i)SELECT\\s+.*\\s+FROM\\s+.*WHERE\\s+.*%s\", \"Medium\", \"Potential SQL string formatting vulnerability\"),\n    (r\"(?i)SELECT\\s+.*\\s+FROM\\s+.*WHERE\\s+.*\\+\", \"Medium\", \"SQL concatenation risk (use parameterized queries)\"),\n    (r\"(?i)http://[a-zA-Z0-9.\\-]+\", \"Low\", \"Insecure HTTP URL detected (prefer HTTPS)\")\n]",
+        "detail": "vigh_agent.tools.code_scanner",
+        "documentation": {}
+    },
+    {
+        "label": "FRAMEWORK_SIGNATURES",
+        "kind": 5,
+        "importPath": "vigh_agent.tools.code_scanner",
+        "description": "vigh_agent.tools.code_scanner",
+        "peekOfCode": "FRAMEWORK_SIGNATURES = {\n    \"FastAPI\": [\"from fastapi import\", \"import fastapi\"],\n    \"Flask\": [\"from flask import\", \"import flask\"],\n    \"Django\": [\"django.core\", \"django.urls\", \"django.db\"],\n    \"React\": [\"from 'react'\", 'from \"react\"', \"import React\"],\n    \"Vue\": [\"from 'vue'\", 'from \"vue\"', \"<template>\"],\n    \"Next.js\": [\"next/head\", \"next/router\", \"next/image\"],\n    \"Express.js\": [\"express()\", \"require('express')\", 'require(\"express\")'],\n    \"PyTorch\": [\"import torch\", \"from torch import\"],\n    \"TensorFlow\": [\"import tensorflow\", \"from tensorflow import\"]",
+        "detail": "vigh_agent.tools.code_scanner",
+        "documentation": {}
+    },
+    {
+        "label": "RunCommandTool",
+        "kind": 6,
+        "importPath": "vigh_agent.tools.execution_tools",
+        "description": "vigh_agent.tools.execution_tools",
+        "peekOfCode": "class RunCommandTool(BaseTool):\n    name = \"run_command\"\n    description = \"Executes a terminal/shell command in the workspace directory and returns its output.\"\n    parameters = {\n        \"type\": \"object\",\n        \"properties\": {\n            \"command\": {\n                \"type\": \"string\",\n                \"description\": \"Shell command to run.\"\n            },",
+        "detail": "vigh_agent.tools.execution_tools",
+        "documentation": {}
+    },
+    {
+        "label": "DANGEROUS_COMMANDS",
+        "kind": 5,
+        "importPath": "vigh_agent.tools.execution_tools",
+        "description": "vigh_agent.tools.execution_tools",
+        "peekOfCode": "DANGEROUS_COMMANDS = [\n    \"rm -rf /\", \"rmdir /s /q c:\", \"format \", \"dd if=\", \":(){ :|:& };:\"\n]\nclass RunCommandTool(BaseTool):\n    name = \"run_command\"\n    description = \"Executes a terminal/shell command in the workspace directory and returns its output.\"\n    parameters = {\n        \"type\": \"object\",\n        \"properties\": {\n            \"command\": {",
+        "detail": "vigh_agent.tools.execution_tools",
+        "documentation": {}
+    },
+    {
+        "label": "ReadFileTool",
+        "kind": 6,
+        "importPath": "vigh_agent.tools.file_tools",
+        "description": "vigh_agent.tools.file_tools",
+        "peekOfCode": "class ReadFileTool(BaseTool):\n    name = \"read_file\"\n    description = \"Reads text contents of a file from any file path. Can specify start_line and end_line for specific sections.\"\n    parameters = {\n        \"type\": \"object\",\n        \"properties\": {\n            \"path\": {\n                \"type\": \"string\",\n                \"description\": \"Absolute or relative file path to read.\"\n            },",
+        "detail": "vigh_agent.tools.file_tools",
+        "documentation": {}
+    },
+    {
+        "label": "WriteFileTool",
+        "kind": 6,
+        "importPath": "vigh_agent.tools.file_tools",
+        "description": "vigh_agent.tools.file_tools",
+        "peekOfCode": "class WriteFileTool(BaseTool):\n    name = \"write_file\"\n    description = \"Writes or overwrites content to a specified file path. Automatically creates parent directories if they don't exist. Saves undo snapshot.\"\n    parameters = {\n        \"type\": \"object\",\n        \"properties\": {\n            \"path\": {\n                \"type\": \"string\",\n                \"description\": \"File path to write.\"\n            },",
+        "detail": "vigh_agent.tools.file_tools",
+        "documentation": {}
+    },
+    {
+        "label": "EditFileTool",
+        "kind": 6,
+        "importPath": "vigh_agent.tools.file_tools",
+        "description": "vigh_agent.tools.file_tools",
+        "peekOfCode": "class EditFileTool(BaseTool):\n    name = \"edit_file\"\n    description = \"Modifies an existing file by replacing a specific code snippet with replacement code. Preserves the rest of the file and records an undo snapshot.\"\n    parameters = {\n        \"type\": \"object\",\n        \"properties\": {\n            \"path\": {\n                \"type\": \"string\",\n                \"description\": \"File path to edit.\"\n            },",
+        "detail": "vigh_agent.tools.file_tools",
+        "documentation": {}
+    },
+    {
+        "label": "ListDirTool",
+        "kind": 6,
+        "importPath": "vigh_agent.tools.file_tools",
+        "description": "vigh_agent.tools.file_tools",
+        "peekOfCode": "class ListDirTool(BaseTool):\n    name = \"list_dir\"\n    description = \"Lists files and subdirectories at a given path, with file sizes, types, and counts.\"\n    parameters = {\n        \"type\": \"object\",\n        \"properties\": {\n            \"path\": {\n                \"type\": \"string\",\n                \"description\": \"Directory path to list (default is workspace root / current dir).\"\n            },",
+        "detail": "vigh_agent.tools.file_tools",
+        "documentation": {}
+    },
+    {
+        "label": "GitStatusTool",
+        "kind": 6,
+        "importPath": "vigh_agent.tools.git_tools",
+        "description": "vigh_agent.tools.git_tools",
+        "peekOfCode": "class GitStatusTool(BaseTool):\n    name = \"git_status\"\n    description = \"Checks the Git status of the workspace (modified, staged, and untracked files).\"\n    parameters = {\n        \"type\": \"object\",\n        \"properties\": {\n            \"path\": {\n                \"type\": \"string\",\n                \"description\": \"Path to git repository (default workspace root).\"\n            }",
+        "detail": "vigh_agent.tools.git_tools",
+        "documentation": {}
+    },
+    {
+        "label": "GitDiffTool",
+        "kind": 6,
+        "importPath": "vigh_agent.tools.git_tools",
+        "description": "vigh_agent.tools.git_tools",
+        "peekOfCode": "class GitDiffTool(BaseTool):\n    name = \"git_diff\"\n    description = \"Shows the working tree git diff for modified files.\"\n    parameters = {\n        \"type\": \"object\",\n        \"properties\": {\n            \"path\": {\n                \"type\": \"string\",\n                \"description\": \"Path to file or repository (default workspace root).\"\n            },",
+        "detail": "vigh_agent.tools.git_tools",
+        "documentation": {}
+    },
+    {
+        "label": "ToolRegistry",
+        "kind": 6,
+        "importPath": "vigh_agent.tools.registry",
+        "description": "vigh_agent.tools.registry",
+        "peekOfCode": "class ToolRegistry:\n    \"\"\"Manages available tools and executes calls.\"\"\"\n    def __init__(self):\n        self._tools: Dict[str, BaseTool] = {}\n        self._register_default_tools()\n    def _register_default_tools(self):\n        default_tools = [\n            ReadFileTool(),\n            WriteFileTool(),\n            EditFileTool(),",
+        "detail": "vigh_agent.tools.registry",
+        "documentation": {}
+    },
+    {
+        "label": "tool_registry",
+        "kind": 5,
+        "importPath": "vigh_agent.tools.registry",
+        "description": "vigh_agent.tools.registry",
+        "peekOfCode": "tool_registry = ToolRegistry()",
+        "detail": "vigh_agent.tools.registry",
+        "documentation": {}
+    },
+    {
+        "label": "SearchCodeTool",
+        "kind": 6,
+        "importPath": "vigh_agent.tools.search_tools",
+        "description": "vigh_agent.tools.search_tools",
+        "peekOfCode": "class SearchCodeTool(BaseTool):\n    name = \"search_code\"\n    description = \"Searches for a text pattern or regular expression across all files in a folder.\"\n    parameters = {\n        \"type\": \"object\",\n        \"properties\": {\n            \"query\": {\n                \"type\": \"string\",\n                \"description\": \"Text or regex query to search for.\"\n            },",
+        "detail": "vigh_agent.tools.search_tools",
+        "documentation": {}
+    },
+    {
+        "label": "OutlineSymbolsTool",
+        "kind": 6,
+        "importPath": "vigh_agent.tools.search_tools",
+        "description": "vigh_agent.tools.search_tools",
+        "peekOfCode": "class OutlineSymbolsTool(BaseTool):\n    name = \"outline_symbols\"\n    description = \"Parses a file and extracts high-level symbols (classes, functions, methods, routes) for rapid understanding.\"\n    parameters = {\n        \"type\": \"object\",\n        \"properties\": {\n            \"path\": {\n                \"type\": \"string\",\n                \"description\": \"File path to extract symbols from.\"\n            }",
+        "detail": "vigh_agent.tools.search_tools",
+        "documentation": {}
+    },
+    {
+        "label": "UndoHistory",
+        "kind": 6,
+        "importPath": "vigh_agent.utils.diff_utils",
+        "description": "vigh_agent.utils.diff_utils",
+        "peekOfCode": "class UndoHistory:\n    \"\"\"\n    Maintains an in-memory stack of file snapshots for instant undo/rollback.\n    \"\"\"\n    def __init__(self, max_history: int = 50):\n        self.max_history = max_history\n        self._history: List[Dict[str, Any]] = []\n    def record_change(self, file_path: str, previous_content: Optional[str], new_content: Optional[str], description: str = \"\"):\n        \"\"\"\n        Record a file change. If previous_content is None, file was newly created.",
+        "detail": "vigh_agent.utils.diff_utils",
+        "documentation": {}
+    },
+    {
+        "label": "generate_diff",
+        "kind": 2,
+        "importPath": "vigh_agent.utils.diff_utils",
+        "description": "vigh_agent.utils.diff_utils",
+        "peekOfCode": "def generate_diff(old_content: str, new_content: str, file_path: str = \"file\") -> str:\n    \"\"\"\n    Generates a standard unified diff string between old and new text content.\n    \"\"\"\n    old_lines = old_content.splitlines(keepends=True)\n    new_lines = new_content.splitlines(keepends=True)\n    diff = difflib.unified_diff(\n        old_lines,\n        new_lines,\n        fromfile=f\"a/{file_path}\",",
+        "detail": "vigh_agent.utils.diff_utils",
+        "documentation": {}
+    },
+    {
+        "label": "create_rich_diff",
+        "kind": 2,
+        "importPath": "vigh_agent.utils.diff_utils",
+        "description": "vigh_agent.utils.diff_utils",
+        "peekOfCode": "def create_rich_diff(diff_str: str) -> Text:\n    \"\"\"\n    Parses a unified diff string into rich styled Text with red/green/cyan colors.\n    \"\"\"\n    text = Text()\n    for line in diff_str.splitlines():\n        if line.startswith(\"+++\") or line.startswith(\"---\"):\n            text.append(line + \"\\n\", style=\"bold cyan\")\n        elif line.startswith(\"@@\"):\n            text.append(line + \"\\n\", style=\"bold magenta\")",
+        "detail": "vigh_agent.utils.diff_utils",
+        "documentation": {}
+    },
+    {
+        "label": "apply_snippet_edit",
+        "kind": 2,
+        "importPath": "vigh_agent.utils.diff_utils",
+        "description": "vigh_agent.utils.diff_utils",
+        "peekOfCode": "def apply_snippet_edit(original_content: str, target_snippet: str, replacement_snippet: str) -> Tuple[bool, str, str]:\n    \"\"\"\n    Replaces a target snippet in the original content.\n    Tries exact match first, then normalized newline match, then whitespace-trimmed fallback.\n    Returns: (success: bool, updated_content: str, error_message: str)\n    \"\"\"\n    # 1. Exact match\n    if target_snippet in original_content:\n        # Check if it appears multiple times\n        count = original_content.count(target_snippet)",
+        "detail": "vigh_agent.utils.diff_utils",
+        "documentation": {}
+    },
+    {
+        "label": "undo_manager",
+        "kind": 5,
+        "importPath": "vigh_agent.utils.diff_utils",
+        "description": "vigh_agent.utils.diff_utils",
+        "peekOfCode": "undo_manager = UndoHistory()",
+        "detail": "vigh_agent.utils.diff_utils",
+        "documentation": {}
+    },
+    {
+        "label": "resolve_path",
+        "kind": 2,
+        "importPath": "vigh_agent.utils.path_utils",
+        "description": "vigh_agent.utils.path_utils",
+        "peekOfCode": "def resolve_path(target_path: str, workspace_root: Optional[str] = None) -> Path:\n    \"\"\"\n    Safely resolves a path. If relative, joins with workspace_root (or cwd).\n    \"\"\"\n    if workspace_root is None:\n        workspace_root = os.getcwd()\n    clean_target = target_path.strip().strip('\"').strip(\"'\")\n    p = Path(clean_target)\n    if not p.is_absolute():\n        p = Path(workspace_root) / p",
+        "detail": "vigh_agent.utils.path_utils",
+        "documentation": {}
+    },
+    {
+        "label": "is_ignored",
+        "kind": 2,
+        "importPath": "vigh_agent.utils.path_utils",
+        "description": "vigh_agent.utils.path_utils",
+        "peekOfCode": "def is_ignored(file_path: Path, workspace_root: Path, custom_ignores: Optional[List[str]] = None) -> bool:\n    \"\"\"\n    Checks if a file or directory path matches ignore patterns.\n    \"\"\"\n    ignored_patterns = config.get(\"ignored_patterns\", [])\n    if custom_ignores:\n        ignored_patterns = list(set(ignored_patterns + custom_ignores))\n    try:\n        rel_path = file_path.relative_to(workspace_root)\n        parts = rel_path.parts",
+        "detail": "vigh_agent.utils.path_utils",
+        "documentation": {}
+    },
+    {
+        "label": "is_binary_file",
+        "kind": 2,
+        "importPath": "vigh_agent.utils.path_utils",
+        "description": "vigh_agent.utils.path_utils",
+        "peekOfCode": "def is_binary_file(file_path: Path) -> bool:\n    \"\"\"\n    Determines if a file is binary by extension and initial byte inspection.\n    \"\"\"\n    if file_path.suffix.lower() in BINARY_EXTENSIONS:\n        return True\n    if not file_path.is_file() or not file_path.exists():\n        return False\n    try:\n        with open(file_path, \"rb\") as f:",
+        "detail": "vigh_agent.utils.path_utils",
+        "documentation": {}
+    },
+    {
+        "label": "detect_language",
+        "kind": 2,
+        "importPath": "vigh_agent.utils.path_utils",
+        "description": "vigh_agent.utils.path_utils",
+        "peekOfCode": "def detect_language(file_path: Path) -> str:\n    \"\"\"\n    Detects language identifier for syntax highlighting.\n    \"\"\"\n    suffix = file_path.suffix.lower()\n    if suffix in LANGUAGE_EXTENSIONS:\n        return LANGUAGE_EXTENSIONS[suffix]\n    name = file_path.name.lower()\n    if name in (\"dockerfile\", \"containerfile\"):\n        return \"dockerfile\"",
+        "detail": "vigh_agent.utils.path_utils",
+        "documentation": {}
+    },
+    {
+        "label": "format_file_size",
+        "kind": 2,
+        "importPath": "vigh_agent.utils.path_utils",
+        "description": "vigh_agent.utils.path_utils",
+        "peekOfCode": "def format_file_size(size_bytes: int) -> str:\n    \"\"\"\n    Formats byte size to human readable string.\n    \"\"\"\n    if size_bytes < 1024:\n        return f\"{size_bytes} B\"\n    elif size_bytes < 1024 * 1024:\n        return f\"{size_bytes / 1024:.1f} KB\"\n    elif size_bytes < 1024 * 1024 * 1024:\n        return f\"{size_bytes / (1024 * 1024):.1f} MB\"",
+        "detail": "vigh_agent.utils.path_utils",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_EXTENSIONS",
+        "kind": 5,
+        "importPath": "vigh_agent.utils.path_utils",
+        "description": "vigh_agent.utils.path_utils",
+        "peekOfCode": "LANGUAGE_EXTENSIONS = {\n    \".py\": \"python\",\n    \".js\": \"javascript\",\n    \".jsx\": \"javascript\",\n    \".ts\": \"typescript\",\n    \".tsx\": \"typescript\",\n    \".html\": \"html\",\n    \".htm\": \"html\",\n    \".css\": \"css\",\n    \".scss\": \"scss\",",
+        "detail": "vigh_agent.utils.path_utils",
+        "documentation": {}
+    },
+    {
+        "label": "BINARY_EXTENSIONS",
+        "kind": 5,
+        "importPath": "vigh_agent.utils.path_utils",
+        "description": "vigh_agent.utils.path_utils",
+        "peekOfCode": "BINARY_EXTENSIONS = {\n    \".png\", \".jpg\", \".jpeg\", \".gif\", \".ico\", \".svg\", \".bmp\", \".webp\",\n    \".pdf\", \".zip\", \".tar\", \".gz\", \".7z\", \".rar\",\n    \".exe\", \".dll\", \".so\", \".dylib\", \".bin\",\n    \".pyc\", \".pyo\", \".pyd\", \".class\", \".jar\",\n    \".woff\", \".woff2\", \".ttf\", \".eot\",\n    \".mp3\", \".mp4\", \".wav\", \".avi\", \".mov\", \".mkv\"\n}\ndef resolve_path(target_path: str, workspace_root: Optional[str] = None) -> Path:\n    \"\"\"",
+        "detail": "vigh_agent.utils.path_utils",
+        "documentation": {}
+    },
+    {
+        "label": "ChatRequest",
+        "kind": 6,
+        "importPath": "vigh_agent.web.api",
+        "description": "vigh_agent.web.api",
+        "peekOfCode": "class ChatRequest(BaseModel):\n    message: str\nclass SwitchModelRequest(BaseModel):\n    provider: str\n    model: str\nclass SwitchWorkspaceRequest(BaseModel):\n    path: str\nclass SaveFileRequest(BaseModel):\n    path: str\n    content: str",
+        "detail": "vigh_agent.web.api",
+        "documentation": {}
+    },
+    {
+        "label": "SwitchModelRequest",
+        "kind": 6,
+        "importPath": "vigh_agent.web.api",
+        "description": "vigh_agent.web.api",
+        "peekOfCode": "class SwitchModelRequest(BaseModel):\n    provider: str\n    model: str\nclass SwitchWorkspaceRequest(BaseModel):\n    path: str\nclass SaveFileRequest(BaseModel):\n    path: str\n    content: str\n    description: Optional[str] = \"Web editor save\"\nclass CommandRequest(BaseModel):",
+        "detail": "vigh_agent.web.api",
+        "documentation": {}
+    },
+    {
+        "label": "SwitchWorkspaceRequest",
+        "kind": 6,
+        "importPath": "vigh_agent.web.api",
+        "description": "vigh_agent.web.api",
+        "peekOfCode": "class SwitchWorkspaceRequest(BaseModel):\n    path: str\nclass SaveFileRequest(BaseModel):\n    path: str\n    content: str\n    description: Optional[str] = \"Web editor save\"\nclass CommandRequest(BaseModel):\n    command: str\n@router.get(\"/status\")\ndef get_status():",
+        "detail": "vigh_agent.web.api",
+        "documentation": {}
+    },
+    {
+        "label": "SaveFileRequest",
+        "kind": 6,
+        "importPath": "vigh_agent.web.api",
+        "description": "vigh_agent.web.api",
+        "peekOfCode": "class SaveFileRequest(BaseModel):\n    path: str\n    content: str\n    description: Optional[str] = \"Web editor save\"\nclass CommandRequest(BaseModel):\n    command: str\n@router.get(\"/status\")\ndef get_status():\n    \"\"\"Returns agent status, workspace, and model health.\"\"\"\n    return web_session.get_status()",
+        "detail": "vigh_agent.web.api",
+        "documentation": {}
+    },
+    {
+        "label": "CommandRequest",
+        "kind": 6,
+        "importPath": "vigh_agent.web.api",
+        "description": "vigh_agent.web.api",
+        "peekOfCode": "class CommandRequest(BaseModel):\n    command: str\n@router.get(\"/status\")\ndef get_status():\n    \"\"\"Returns agent status, workspace, and model health.\"\"\"\n    return web_session.get_status()\n@router.get(\"/models\")\ndef get_models():\n    \"\"\"Returns all local and configured models.\"\"\"\n    available = model_registry.scan_all_models()",
+        "detail": "vigh_agent.web.api",
+        "documentation": {}
+    },
+    {
+        "label": "get_status",
+        "kind": 2,
+        "importPath": "vigh_agent.web.api",
+        "description": "vigh_agent.web.api",
+        "peekOfCode": "def get_status():\n    \"\"\"Returns agent status, workspace, and model health.\"\"\"\n    return web_session.get_status()\n@router.get(\"/models\")\ndef get_models():\n    \"\"\"Returns all local and configured models.\"\"\"\n    available = model_registry.scan_all_models()\n    return {\n        \"current_provider\": web_session.provider_name,\n        \"current_model\": web_session.model_name,",
+        "detail": "vigh_agent.web.api",
+        "documentation": {}
+    },
+    {
+        "label": "get_models",
+        "kind": 2,
+        "importPath": "vigh_agent.web.api",
+        "description": "vigh_agent.web.api",
+        "peekOfCode": "def get_models():\n    \"\"\"Returns all local and configured models.\"\"\"\n    available = model_registry.scan_all_models()\n    return {\n        \"current_provider\": web_session.provider_name,\n        \"current_model\": web_session.model_name,\n        \"models\": available\n    }\n@router.post(\"/models/select\")\ndef select_model(req: SwitchModelRequest):",
+        "detail": "vigh_agent.web.api",
+        "documentation": {}
+    },
+    {
+        "label": "select_model",
+        "kind": 2,
+        "importPath": "vigh_agent.web.api",
+        "description": "vigh_agent.web.api",
+        "peekOfCode": "def select_model(req: SwitchModelRequest):\n    \"\"\"Switch active model.\"\"\"\n    try:\n        web_session.initialize_provider(provider_name=req.provider, model_name=req.model)\n        return {\n            \"success\": True,\n            \"provider\": web_session.provider_name,\n            \"model\": web_session.model_name,\n            \"message\": f\"Successfully switched to {req.model}\"\n        }",
+        "detail": "vigh_agent.web.api",
+        "documentation": {}
+    },
+    {
+        "label": "set_workspace",
+        "kind": 2,
+        "importPath": "vigh_agent.web.api",
+        "description": "vigh_agent.web.api",
+        "peekOfCode": "def set_workspace(req: SwitchWorkspaceRequest):\n    \"\"\"Change workspace directory.\"\"\"\n    success, msg = web_session.set_workspace(req.path)\n    if not success:\n        raise HTTPException(status_code=400, detail=msg)\n    return {\n        \"success\": True,\n        \"workspace\": str(web_session.workspace_root),\n        \"message\": msg\n    }",
+        "detail": "vigh_agent.web.api",
+        "documentation": {}
+    },
+    {
+        "label": "scan_codebase",
+        "kind": 2,
+        "importPath": "vigh_agent.web.api",
+        "description": "vigh_agent.web.api",
+        "peekOfCode": "def scan_codebase(max_depth: int = 5, security_audit: bool = True):\n    \"\"\"Deeply scan the workspace.\"\"\"\n    scanner = CodeScannerTool()\n    res = scanner.run(\n        path=\".\",\n        max_depth=max_depth,\n        include_security_audit=security_audit,\n        workspace_root=str(web_session.workspace_root)\n    )\n    return res",
+        "detail": "vigh_agent.web.api",
+        "documentation": {}
+    },
+    {
+        "label": "get_file_tree",
+        "kind": 2,
+        "importPath": "vigh_agent.web.api",
+        "description": "vigh_agent.web.api",
+        "peekOfCode": "def get_file_tree():\n    \"\"\"Returns recursive file tree structure for sidebar explorer.\"\"\"\n    root = web_session.workspace_root\n    def build_tree(current_dir: Path) -> List[Dict[str, Any]]:\n        nodes = []\n        try:\n            entries = sorted(current_dir.iterdir(), key=lambda x: (not x.is_dir(), x.name.lower()))\n            for entry in entries:\n                if is_ignored(entry, root):\n                    continue",
+        "detail": "vigh_agent.web.api",
+        "documentation": {}
+    },
+    {
+        "label": "get_file_content",
+        "kind": 2,
+        "importPath": "vigh_agent.web.api",
+        "description": "vigh_agent.web.api",
+        "peekOfCode": "def get_file_content(path: str = Query(...)):\n    \"\"\"Reads file content for web editor.\"\"\"\n    target = resolve_path(path, str(web_session.workspace_root))\n    if not target.exists() or not target.is_file():\n        raise HTTPException(status_code=404, detail=\"File not found\")\n    if is_binary_file(target):\n        return {\"success\": False, \"is_binary\": True, \"path\": path, \"content\": \"[Binary file cannot be viewed as text]\"}\n    try:\n        with open(target, \"r\", encoding=\"utf-8\", errors=\"replace\") as f:\n            content = f.read()",
+        "detail": "vigh_agent.web.api",
+        "documentation": {}
+    },
+    {
+        "label": "save_file",
+        "kind": 2,
+        "importPath": "vigh_agent.web.api",
+        "description": "vigh_agent.web.api",
+        "peekOfCode": "def save_file(req: SaveFileRequest):\n    \"\"\"Saves file content with undo snapshot.\"\"\"\n    writer = WriteFileTool()\n    res = writer.run(\n        path=req.path,\n        content=req.content,\n        description=req.description or \"Web editor save\",\n        workspace_root=str(web_session.workspace_root)\n    )\n    return res",
+        "detail": "vigh_agent.web.api",
+        "documentation": {}
+    },
+    {
+        "label": "revert_last_edit",
+        "kind": 2,
+        "importPath": "vigh_agent.web.api",
+        "description": "vigh_agent.web.api",
+        "peekOfCode": "def revert_last_edit():\n    \"\"\"Undo last file modification.\"\"\"\n    success, msg = undo_manager.undo_last()\n    return {\"success\": success, \"message\": msg}\n@router.get(\"/history/undo\")\ndef get_undo_history():\n    \"\"\"Get list of undo snapshots.\"\"\"\n    return {\"history\": undo_manager.get_history_summary()}\n@router.post(\"/command\")\ndef execute_command(req: CommandRequest):",
+        "detail": "vigh_agent.web.api",
+        "documentation": {}
+    },
+    {
+        "label": "get_undo_history",
+        "kind": 2,
+        "importPath": "vigh_agent.web.api",
+        "description": "vigh_agent.web.api",
+        "peekOfCode": "def get_undo_history():\n    \"\"\"Get list of undo snapshots.\"\"\"\n    return {\"history\": undo_manager.get_history_summary()}\n@router.post(\"/command\")\ndef execute_command(req: CommandRequest):\n    \"\"\"Execute shell command in workspace.\"\"\"\n    runner = RunCommandTool()\n    res = runner.run(command=req.command, workspace_root=str(web_session.workspace_root))\n    return res\n@router.post(\"/chat\")",
+        "detail": "vigh_agent.web.api",
+        "documentation": {}
+    },
+    {
+        "label": "execute_command",
+        "kind": 2,
+        "importPath": "vigh_agent.web.api",
+        "description": "vigh_agent.web.api",
+        "peekOfCode": "def execute_command(req: CommandRequest):\n    \"\"\"Execute shell command in workspace.\"\"\"\n    runner = RunCommandTool()\n    res = runner.run(command=req.command, workspace_root=str(web_session.workspace_root))\n    return res\n@router.post(\"/chat\")\ndef chat_stream_endpoint(req: ChatRequest):\n    \"\"\"\n    SSE Streaming endpoint for real-time agent output.\n    \"\"\"",
+        "detail": "vigh_agent.web.api",
+        "documentation": {}
+    },
+    {
+        "label": "chat_stream_endpoint",
+        "kind": 2,
+        "importPath": "vigh_agent.web.api",
+        "description": "vigh_agent.web.api",
+        "peekOfCode": "def chat_stream_endpoint(req: ChatRequest):\n    \"\"\"\n    SSE Streaming endpoint for real-time agent output.\n    \"\"\"\n    def event_generator():\n        for event in web_agent.chat_stream(req.message):\n            payload = {\n                \"type\": event.type,\n                \"content\": event.content,\n                \"data\": event.data",
+        "detail": "vigh_agent.web.api",
+        "documentation": {}
+    },
+    {
+        "label": "reset_chat",
+        "kind": 2,
+        "importPath": "vigh_agent.web.api",
+        "description": "vigh_agent.web.api",
+        "peekOfCode": "def reset_chat():\n    \"\"\"Reset agent conversation memory.\"\"\"\n    web_agent.reset_conversation()\n    return {\"success\": True, \"message\": \"Conversation history reset.\"}",
+        "detail": "vigh_agent.web.api",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "vigh_agent.web.api",
+        "description": "vigh_agent.web.api",
+        "peekOfCode": "router = APIRouter(prefix=\"/api\")\n# Global session and agent instance for web\nweb_session = AgentSession()\nweb_agent = VighAgent(session=web_session)\nclass ChatRequest(BaseModel):\n    message: str\nclass SwitchModelRequest(BaseModel):\n    provider: str\n    model: str\nclass SwitchWorkspaceRequest(BaseModel):",
+        "detail": "vigh_agent.web.api",
+        "documentation": {}
+    },
+    {
+        "label": "web_session",
+        "kind": 5,
+        "importPath": "vigh_agent.web.api",
+        "description": "vigh_agent.web.api",
+        "peekOfCode": "web_session = AgentSession()\nweb_agent = VighAgent(session=web_session)\nclass ChatRequest(BaseModel):\n    message: str\nclass SwitchModelRequest(BaseModel):\n    provider: str\n    model: str\nclass SwitchWorkspaceRequest(BaseModel):\n    path: str\nclass SaveFileRequest(BaseModel):",
+        "detail": "vigh_agent.web.api",
+        "documentation": {}
+    },
+    {
+        "label": "web_agent",
+        "kind": 5,
+        "importPath": "vigh_agent.web.api",
+        "description": "vigh_agent.web.api",
+        "peekOfCode": "web_agent = VighAgent(session=web_session)\nclass ChatRequest(BaseModel):\n    message: str\nclass SwitchModelRequest(BaseModel):\n    provider: str\n    model: str\nclass SwitchWorkspaceRequest(BaseModel):\n    path: str\nclass SaveFileRequest(BaseModel):\n    path: str",
+        "detail": "vigh_agent.web.api",
+        "documentation": {}
+    },
+    {
+        "label": "serve_index",
+        "kind": 2,
+        "importPath": "vigh_agent.web.server",
+        "description": "vigh_agent.web.server",
+        "peekOfCode": "def serve_index():\n    \"\"\"Serve single-page web app.\"\"\"\n    index_path = STATIC_DIR / \"index.html\"\n    return FileResponse(str(index_path))\ndef find_free_port(start_port: int = 8440) -> int:\n    \"\"\"Find an open port on localhost.\"\"\"\n    port = start_port\n    while port < 65535:\n        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:\n            if s.connect_ex((\"127.0.0.1\", port)) != 0:",
+        "detail": "vigh_agent.web.server",
+        "documentation": {}
+    },
+    {
+        "label": "find_free_port",
+        "kind": 2,
+        "importPath": "vigh_agent.web.server",
+        "description": "vigh_agent.web.server",
+        "peekOfCode": "def find_free_port(start_port: int = 8440) -> int:\n    \"\"\"Find an open port on localhost.\"\"\"\n    port = start_port\n    while port < 65535:\n        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:\n            if s.connect_ex((\"127.0.0.1\", port)) != 0:\n                return port\n            port += 1\n    return start_port\ndef start_web_server(",
+        "detail": "vigh_agent.web.server",
+        "documentation": {}
+    },
+    {
+        "label": "start_web_server",
+        "kind": 2,
+        "importPath": "vigh_agent.web.server",
+        "description": "vigh_agent.web.server",
+        "peekOfCode": "def start_web_server(\n    workspace_dir: Optional[str] = None,\n    host: Optional[str] = None,\n    port: Optional[int] = None,\n    open_browser: bool = True\n):\n    \"\"\"Starts the web server and opens the browser.\"\"\"\n    if workspace_dir:\n        web_session.set_workspace(workspace_dir)\n    target_host = host or config.get(\"web_host\", \"127.0.0.1\")",
+        "detail": "vigh_agent.web.server",
+        "documentation": {}
+    },
+    {
+        "label": "console",
+        "kind": 5,
+        "importPath": "vigh_agent.web.server",
+        "description": "vigh_agent.web.server",
+        "peekOfCode": "console = Console()\nSTATIC_DIR = Path(__file__).parent / \"static\"\napp = FastAPI(\n    title=\"VIGH-02 AI AGENT Web UI\",\n    description=\"Offline-First Local & Cloud Autonomous Coding Assistant\",\n    version=\"2.0.0\"\n)\n# CORS configuration\napp.add_middleware(\n    CORSMiddleware,",
+        "detail": "vigh_agent.web.server",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_DIR",
+        "kind": 5,
+        "importPath": "vigh_agent.web.server",
+        "description": "vigh_agent.web.server",
+        "peekOfCode": "STATIC_DIR = Path(__file__).parent / \"static\"\napp = FastAPI(\n    title=\"VIGH-02 AI AGENT Web UI\",\n    description=\"Offline-First Local & Cloud Autonomous Coding Assistant\",\n    version=\"2.0.0\"\n)\n# CORS configuration\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],",
+        "detail": "vigh_agent.web.server",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "vigh_agent.web.server",
+        "description": "vigh_agent.web.server",
+        "peekOfCode": "app = FastAPI(\n    title=\"VIGH-02 AI AGENT Web UI\",\n    description=\"Offline-First Local & Cloud Autonomous Coding Assistant\",\n    version=\"2.0.0\"\n)\n# CORS configuration\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],\n    allow_credentials=True,",
+        "detail": "vigh_agent.web.server",
+        "documentation": {}
+    },
+    {
+        "label": "print_banner",
+        "kind": 2,
+        "importPath": "vigh_agent.banner",
+        "description": "vigh_agent.banner",
+        "peekOfCode": "def print_banner(model_name: str = \"Auto-Detecting\", workspace_dir: str = \"\", mode: str = \"CLI\"):\n    \"\"\"Displays the branded VIGH-02 AI AGENT startup banner.\"\"\"\n    art_text = Text(BANNER_ART, style=\"bold cyan\")\n    title = Text(\"⚡ VIGH-02 AI AGENT ⚡\", style=\"bold bright_white\")\n    subtitle = Text(\"Offline-First Autonomous Local & Cloud Coding Assistant\", style=\"bold green\")\n    info_table = Table.grid(padding=(0, 2))\n    info_table.add_column(style=\"bold yellow\", justify=\"right\")\n    info_table.add_column(style=\"bright_white\")\n    info_table.add_row(\"🤖 Active Model:\", f\"[bold cyan]{model_name}[/bold cyan]\")\n    info_table.add_row(\"📁 Workspace:\", f\"[bold blue]{workspace_dir}[/bold blue]\")",
+        "detail": "vigh_agent.banner",
+        "documentation": {}
+    },
+    {
+        "label": "print_divider",
+        "kind": 2,
+        "importPath": "vigh_agent.banner",
+        "description": "vigh_agent.banner",
+        "peekOfCode": "def print_divider(title: str = \"\"):\n    \"\"\"Print a clean divider.\"\"\"\n    if title:\n        console.rule(f\"[bold cyan]{title}[/bold cyan]\")\n    else:\n        console.rule(style=\"dim\")",
+        "detail": "vigh_agent.banner",
+        "documentation": {}
+    },
+    {
+        "label": "console",
+        "kind": 5,
+        "importPath": "vigh_agent.banner",
+        "description": "vigh_agent.banner",
+        "peekOfCode": "console = Console(highlight=False)\nBANNER_ART = r\"\"\"\n ██    ██ ██  ██████  ██   ██      ██████  ██████  \n ██    ██ ██ ██       ██   ██     ██  ████      ██ \n ██    ██ ██ ██   ███ ███████     ██ ██ ██  █████  \n  ██  ██  ██ ██    ██ ██   ██     ████  ██ ██      \n   ████   ██  ██████  ██   ██      ██████  ███████ \n\"\"\"\ndef print_banner(model_name: str = \"Auto-Detecting\", workspace_dir: str = \"\", mode: str = \"CLI\"):\n    \"\"\"Displays the branded VIGH-02 AI AGENT startup banner.\"\"\"",
+        "detail": "vigh_agent.banner",
+        "documentation": {}
+    },
+    {
+        "label": "BANNER_ART",
+        "kind": 5,
+        "importPath": "vigh_agent.banner",
+        "description": "vigh_agent.banner",
+        "peekOfCode": "BANNER_ART = r\"\"\"\n ██    ██ ██  ██████  ██   ██      ██████  ██████  \n ██    ██ ██ ██       ██   ██     ██  ████      ██ \n ██    ██ ██ ██   ███ ███████     ██ ██ ██  █████  \n  ██  ██  ██ ██    ██ ██   ██     ████  ██ ██      \n   ████   ██  ██████  ██   ██      ██████  ███████ \n\"\"\"\ndef print_banner(model_name: str = \"Auto-Detecting\", workspace_dir: str = \"\", mode: str = \"CLI\"):\n    \"\"\"Displays the branded VIGH-02 AI AGENT startup banner.\"\"\"\n    art_text = Text(BANNER_ART, style=\"bold cyan\")",
+        "detail": "vigh_agent.banner",
+        "documentation": {}
+    },
+    {
+        "label": "install_global_wrapper",
+        "kind": 2,
+        "importPath": "vigh_agent.cli",
+        "description": "vigh_agent.cli",
+        "peekOfCode": "def install_global_wrapper():\n    \"\"\"Installs Windows batch wrappers in Python Scripts folder for global CLI access.\"\"\"\n    scripts_dir = Path(sys.prefix) / \"Scripts\"\n    if not scripts_dir.exists():\n        scripts_dir.mkdir(parents=True, exist_ok=True)\n    batch_vigh02 = scripts_dir / \"vigh-02.bat\"\n    batch_vigh = scripts_dir / \"vigh.bat\"\n    python_exe = sys.executable\n    batch_content = f'@echo off\\n\"{python_exe}\" -m vigh_agent.cli %*\\n'\n    try:",
+        "detail": "vigh_agent.cli",
+        "documentation": {}
+    },
+    {
+        "label": "interactive_menu",
+        "kind": 2,
+        "importPath": "vigh_agent.cli",
+        "description": "vigh_agent.cli",
+        "peekOfCode": "def interactive_menu(workspace_dir: str, model_name: Optional[str] = None):\n    \"\"\"Interactive launch menu asking user whether to open CLI, Web, or Scan.\"\"\"\n    detected_p, detected_m = model_registry.auto_detect_best_model()\n    active_m = model_name or detected_m\n    art = r\"\"\"\n ██    ██ ██  ██████  ██   ██      ██████  ██████  \n ██    ██ ██ ██       ██   ██     ██  ████      ██ \n ██    ██ ██ ██   ███ ███████     ██ ██ ██  █████  \n  ██  ██  ██ ██    ██ ██   ██     ████  ██ ██      \n   ████   ██  ██████  ██   ██      ██████  ███████ ",
+        "detail": "vigh_agent.cli",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "vigh_agent.cli",
+        "description": "vigh_agent.cli",
+        "peekOfCode": "def main():\n    \"\"\"Main CLI entry point.\"\"\"\n    parser = argparse.ArgumentParser(\n        prog=\"vigh-02\",\n        description=\"VIGH-02 AI AGENT: Offline-First Autonomous Local & Cloud Coding AI Assistant\"\n    )\n    parser.add_argument(\n        \"--cli\", \"-c\",\n        action=\"store_true\",\n        help=\"Launch directly in interactive CLI terminal mode\"",
+        "detail": "vigh_agent.cli",
+        "documentation": {}
+    },
+    {
+        "label": "console",
+        "kind": 5,
+        "importPath": "vigh_agent.cli",
+        "description": "vigh_agent.cli",
+        "peekOfCode": "console = Console(highlight=False)\ndef install_global_wrapper():\n    \"\"\"Installs Windows batch wrappers in Python Scripts folder for global CLI access.\"\"\"\n    scripts_dir = Path(sys.prefix) / \"Scripts\"\n    if not scripts_dir.exists():\n        scripts_dir.mkdir(parents=True, exist_ok=True)\n    batch_vigh02 = scripts_dir / \"vigh-02.bat\"\n    batch_vigh = scripts_dir / \"vigh.bat\"\n    python_exe = sys.executable\n    batch_content = f'@echo off\\n\"{python_exe}\" -m vigh_agent.cli %*\\n'",
+        "detail": "vigh_agent.cli",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigManager",
+        "kind": 6,
+        "importPath": "vigh_agent.config",
+        "description": "vigh_agent.config",
+        "peekOfCode": "class ConfigManager:\n    \"\"\"Manages loading, updating, and saving configuration.\"\"\"\n    def __init__(self):\n        self.config_dir = CONFIG_DIR\n        self.config_file = CONFIG_FILE\n        self._config: Dict[str, Any] = DEFAULT_CONFIG.copy()\n        self.load()\n    def load(self) -> Dict[str, Any]:\n        \"\"\"Loads configuration from file or creates default.\"\"\"\n        try:",
+        "detail": "vigh_agent.config",
+        "documentation": {}
+    },
+    {
+        "label": "CONFIG_DIR",
+        "kind": 5,
+        "importPath": "vigh_agent.config",
+        "description": "vigh_agent.config",
+        "peekOfCode": "CONFIG_DIR = Path.home() / \".vigh02\"\nCONFIG_FILE = CONFIG_DIR / \"config.json\"\nDEFAULT_CONFIG: Dict[str, Any] = {\n    \"version\": \"2.0.0\",\n    \"provider\": \"ollama\",  # 'ollama', 'lmstudio', 'custom', 'openai', 'anthropic', 'gemini', 'groq'\n    \"model\": \"qwen2.5-coder:7b\",\n    \"ollama_base_url\": \"http://127.0.0.1:11434\",\n    \"lmstudio_base_url\": \"http://127.0.0.1:1234/v1\",\n    \"custom_base_url\": \"http://127.0.0.1:8000/v1\",\n    \"custom_api_key\": \"\",",
+        "detail": "vigh_agent.config",
+        "documentation": {}
+    },
+    {
+        "label": "CONFIG_FILE",
+        "kind": 5,
+        "importPath": "vigh_agent.config",
+        "description": "vigh_agent.config",
+        "peekOfCode": "CONFIG_FILE = CONFIG_DIR / \"config.json\"\nDEFAULT_CONFIG: Dict[str, Any] = {\n    \"version\": \"2.0.0\",\n    \"provider\": \"ollama\",  # 'ollama', 'lmstudio', 'custom', 'openai', 'anthropic', 'gemini', 'groq'\n    \"model\": \"qwen2.5-coder:7b\",\n    \"ollama_base_url\": \"http://127.0.0.1:11434\",\n    \"lmstudio_base_url\": \"http://127.0.0.1:1234/v1\",\n    \"custom_base_url\": \"http://127.0.0.1:8000/v1\",\n    \"custom_api_key\": \"\",\n    \"openai_api_key\": \"\",",
+        "detail": "vigh_agent.config",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "vigh_agent.config",
+        "description": "vigh_agent.config",
+        "peekOfCode": "config = ConfigManager()",
+        "detail": "vigh_agent.config",
+        "documentation": {}
+    }
+]

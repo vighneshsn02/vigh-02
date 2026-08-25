@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vigh-02"
+version = "2.0.0"
+description = "VIGH-02 AI AGENT: Offline-First Autonomous Local & Cloud Coding Assistant"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+  { name = "VIGH-02 AI Team" }
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Topic :: Software Development :: Code Generators",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+dependencies = [
+  "rich>=13.0.0",
+  "prompt_toolkit>=3.0.0",
+  "fastapi>=0.100.0",
+  "uvicorn>=0.20.0",
+  "requests>=2.28.0",
+  "httpx>=0.24.0",
+  "pydantic>=2.0.0"
+]
+
+[project.scripts]
+vigh-02 = "vigh_agent.cli:main"
+vigh = "vigh_agent.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["vigh_agent*"]

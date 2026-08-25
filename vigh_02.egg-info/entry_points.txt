@@ -1,0 +1,3 @@
+[console_scripts]
+vigh = vigh_agent.cli:main
+vigh-02 = vigh_agent.cli:main

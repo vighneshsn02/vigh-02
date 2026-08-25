@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Pages</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
+        }
+        .page-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        .page-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .nav-links {
+            list-style-type: none;
+            padding: 0;
+        }
+        .nav-links li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: #007bff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="page-container" id="home-page">
+    <h2>Home Page</h2>
+    <p>Welcome to the Home Page!</p>
+    <ul class="nav-links">
+        <li><a href="#login-page">Login</a></li>
+        <li><a href="#profile-page">Profile</a></li>
+    </ul>
+</div>
+
+<div class="page-container" id="login-page" style="display: none;">
+    <h2>Login Page</h2>
+    <p>Please login to access the system.</p>
+    <form action="/login" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+        <button type="submit">Login</button>
+    </form>
+    <ul class="nav-links">
+        <li><a href="#home-page">Home</a></li>
+        <li><a href="#profile-page">Profile</a></li>
+    </ul>
+</div>
+
+<div class="page-container" id="profile-page" style="display: none;">
+    <h2>Profile Page</h2>
+    <p>Welcome to the Profile Page!</p>
+    <ul class="nav-links">
+        <li><a href="#home-page">Home</a></li>
+        <li><a href="#login-page">Login</a></li>
+    </ul>
+</div>
+
+<script>
+    function showPage(pageId) {
+        const pages = document.querySelectorAll('.page-container');
+        pages.forEach(page => page.style.display = 'none');
+        document.getElementById(pageId).style.display = 'block';
+    }
+
+    // Show the Home Page by default
+    showPage('home-page');
+
+    // Add event listeners to navigation links
+    document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('click', function(event) {
+            event.preventDefault();
+            const pageId = this.getAttribute('href').substring(1);
+            showPage(pageId);
+        });
+    });
+</script>
+
+</body>
+</html>
