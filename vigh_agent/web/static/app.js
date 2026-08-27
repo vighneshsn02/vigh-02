@@ -2,14 +2,17 @@
 
 let currentFilePath = null;
 let isStreaming = false;
+let currentMode = 'single';
 
 document.addEventListener('DOMContentLoaded', () => {
   configureMarkedRenderer();
   initTabs();
   initSidebarTabs();
+  initModeToggle();
   loadStatus();
   loadModels();
   loadFileTree();
+  loadAgents();
   initChat();
   initEditor();
   initQuickActions();
@@ -204,6 +207,47 @@ function initSidebarTabs() {
   }
 }
 
+// Mode Toggle (Single vs Multi-Agent)
+function initModeToggle() {
+  const toggleBtn = document.getElementById('mode-toggle-btn');
+  if (!toggleBtn) return;
+
+  toggleBtn.addEventListener('click', async () => {
+    const targetMode = (currentMode === 'multi') ? 'single' : 'multi';
+    try {
+      const res = await fetch('/api/mode', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ mode: targetMode })
+      });
+      const data = await res.json();
+      if (data.success) {
+        currentMode = data.mode;
+        updateModeUI(currentMode);
+      }
+    } catch (err) {
+      console.error('Failed to toggle mode:', err);
+    }
+  });
+}
+
+function updateModeUI(mode) {
+  const toggleBtn = document.getElementById('mode-toggle-btn');
+  const modeText = document.getElementById('mode-text');
+  const modeIcon = document.getElementById('mode-icon');
+  if (!toggleBtn || !modeText) return;
+
+  if (mode === 'multi') {
+    toggleBtn.classList.add('multi-mode');
+    modeText.textContent = 'Multi-Agent Swarm';
+    if (modeIcon) modeIcon.textContent = '👥';
+  } else {
+    toggleBtn.classList.remove('multi-mode');
+    modeText.textContent = 'Single Agent';
+    if (modeIcon) modeIcon.textContent = '⚡';
+  }
+}
+
 // Load Session Status
 async function loadStatus() {
   try {
@@ -211,8 +255,59 @@ async function loadStatus() {
     const data = await res.json();
     document.getElementById('workspace-name-display').textContent = data.workspace_name || data.workspace;
     document.getElementById('workspace-badge').title = `Active Directory: ${data.workspace}`;
+    if (data.mode) {
+      currentMode = data.mode;
+      updateModeUI(currentMode);
+    }
   } catch (err) {
     console.error('Failed to load status:', err);
+  }
+}
+
+// Load Specialized Agents into Swarm Dashboard
+async function loadAgents() {
+  const container = document.getElementById('agents-cards-container');
+  if (!container) return;
+
+  try {
+    const res = await fetch('/api/agents');
+    const data = await res.json();
+    container.innerHTML = '';
+
+    if (data.agents && data.agents.length > 0) {
+      data.agents.forEach(agent => {
+        const card = document.createElement('div');
+        card.className = 'agent-card';
+        card.innerHTML = `
+          <div class="agent-card-header">
+            <div class="agent-card-title">
+              <span style="font-size:18px;">${agent.icon}</span>
+              <span>${escapeHtml(agent.name)}</span>
+            </div>
+            <span class="agent-status-pill">Ready</span>
+          </div>
+          <div class="agent-card-role">${escapeHtml(agent.role)}</div>
+          <div class="agent-card-desc">${escapeHtml(agent.description)}</div>
+        `;
+        container.appendChild(card);
+      });
+    }
+  } catch (err) {
+    console.error('Failed to load agents:', err);
+  }
+}
+
+// Load Swarm Blackboard Context
+async function loadSwarmContext() {
+  const display = document.getElementById('swarm-blackboard-display');
+  if (!display) return;
+
+  try {
+    const res = await fetch('/api/multi-agent/context');
+    const data = await res.json();
+    display.textContent = JSON.stringify(data, null, 2);
+  } catch (err) {
+    display.textContent = 'Error loading shared context: ' + err;
   }
 }
 
@@ -411,10 +506,12 @@ function initChat() {
   });
 }
 
-async function sendChatMessage(promptText) {
+async function sendChatMessage(promptText, requestedMode = null) {
   const chatMessages = document.getElementById('chat-messages');
   isStreaming = true;
   document.getElementById('send-btn').disabled = true;
+
+  const modeToUse = requestedMode || currentMode || 'single';
 
   // Add User Bubble
   const userMsgEl = document.createElement('div');
@@ -429,7 +526,7 @@ async function sendChatMessage(promptText) {
   const assistantMsgEl = document.createElement('div');
   assistantMsgEl.className = 'message assistant';
   assistantMsgEl.innerHTML = `
-    <div class="avatar">⚡</div>
+    <div class="avatar">${modeToUse === 'multi' ? '👥' : '⚡'}</div>
     <div class="bubble"><div class="response-content"></div></div>
   `;
   chatMessages.appendChild(assistantMsgEl);
@@ -442,7 +539,10 @@ async function sendChatMessage(promptText) {
     const response = await fetch('/api/chat', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ message: promptText })
+      body: JSON.stringify({
+        message: promptText,
+        mode: modeToUse
+      })
     });
 
     const reader = response.body.getReader();
@@ -461,6 +561,7 @@ async function sendChatMessage(promptText) {
         if (line.startsWith('data: ')) {
           try {
             const event = JSON.parse(line.substring(6));
+            const agentName = (event.data && event.data.agent) ? event.data.agent.toLowerCase() : 'agent';
 
             if (event.type === 'token' && event.content) {
               const isNearBottom = chatMessages.scrollHeight - chatMessages.scrollTop - chatMessages.clientHeight < 140;
@@ -469,10 +570,22 @@ async function sendChatMessage(promptText) {
               if (isNearBottom) {
                 chatMessages.scrollTop = chatMessages.scrollHeight;
               }
+            } else if (event.type === 'phase_start' && event.content) {
+              const pCard = document.createElement('div');
+              pCard.className = 'phase-card';
+              pCard.innerHTML = `<span>⚡</span> <span>${escapeHtml(event.content)}</span>`;
+              contentBox.appendChild(pCard);
+              chatMessages.scrollTop = chatMessages.scrollHeight;
+            } else if (event.type === 'agent_start') {
+              const aBadge = document.createElement('div');
+              aBadge.className = `agent-turn-badge ${agentName}`;
+              aBadge.innerHTML = `<span>▶ [${escapeHtml((event.data && event.data.agent) || 'AGENT').toUpperCase()}]</span> Working...`;
+              contentBox.appendChild(aBadge);
+              chatMessages.scrollTop = chatMessages.scrollHeight;
             } else if (event.type === 'tool_start') {
               const badge = document.createElement('div');
               badge.className = 'tool-badge';
-              badge.textContent = `⚡ Executing ${event.data ? event.data.name : 'tool'}...`;
+              badge.textContent = `⚡ [${escapeHtml(agentName.toUpperCase())}] Executing ${event.data ? event.data.name : 'tool'}...`;
               contentBox.appendChild(badge);
               chatMessages.scrollTop = chatMessages.scrollHeight;
             } else if (event.type === 'tool_end') {
@@ -480,9 +593,21 @@ async function sendChatMessage(promptText) {
               badge.className = 'tool-badge';
               badge.style.color = '#34d399';
               badge.style.borderColor = 'rgba(52, 211, 153, 0.3)';
-              badge.textContent = `✓ ${event.data ? event.data.name : 'Tool'} complete`;
+              badge.textContent = `✓ [${escapeHtml(agentName.toUpperCase())}] ${event.data ? event.data.name : 'Tool'} complete`;
               contentBox.appendChild(badge);
               loadFileTree(); // Refresh files if tool mutated disk
+            } else if (event.type === 'autofix_start') {
+              const fixBox = document.createElement('div');
+              fixBox.className = 'autofix-box';
+              fixBox.innerHTML = `<strong>🔧 Self-Healing Triggered:</strong> ${escapeHtml(event.content || 'Applying automated error repairs...')}`;
+              contentBox.appendChild(fixBox);
+              chatMessages.scrollTop = chatMessages.scrollHeight;
+            } else if (event.type === 'autofix_complete') {
+              const fixBox = document.createElement('div');
+              fixBox.className = 'tool-badge';
+              fixBox.style.color = '#34d399';
+              fixBox.textContent = `✓ ${event.content || 'Auto-fix complete.'}`;
+              contentBox.appendChild(fixBox);
             } else if (event.type === 'diff' && event.content) {
               renderDiffView(event.content);
             } else if (event.type === 'error') {
@@ -505,6 +630,7 @@ async function sendChatMessage(promptText) {
     if (accumulatedMarkdown) {
       renderMarkdownInto(contentBox, accumulatedMarkdown);
     }
+    loadSwarmContext();
   }
 }
 
@@ -530,6 +656,37 @@ function renderDiffView(diffText) {
 
 // Quick Actions
 function initQuickActions() {
+  const multiAction = document.getElementById('action-multi-agent');
+  if (multiAction) {
+    multiAction.addEventListener('click', () => {
+      currentMode = 'multi';
+      updateModeUI('multi');
+      document.querySelector('[data-view="chat-view"]').click();
+      sendChatMessage('Please organize a full multi-agent workflow: plan the requirements, implement code changes, execute automated tests, audit security, review quality, and self-heal any failures.', 'multi');
+    });
+  }
+
+  const swarmTaskBtn = document.getElementById('swarm-run-quick-task');
+  if (swarmTaskBtn) {
+    swarmTaskBtn.addEventListener('click', () => {
+      const task = prompt('Describe the engineering goal for the Multi-Agent Swarm (Planner, Coder, Tester, Reviewer, Security):');
+      if (task) {
+        currentMode = 'multi';
+        updateModeUI('multi');
+        document.querySelector('[data-view="chat-view"]').click();
+        sendChatMessage(task, 'multi');
+      }
+    });
+  }
+
+  const refreshSwarmBtn = document.getElementById('refresh-swarm-btn');
+  if (refreshSwarmBtn) {
+    refreshSwarmBtn.addEventListener('click', () => {
+      loadAgents();
+      loadSwarmContext();
+    });
+  }
+
   document.getElementById('action-scan').addEventListener('click', () => {
     document.querySelector('[data-view="scanner-view"]').click();
     runFullScan();

@@ -83,22 +83,25 @@ def interactive_menu(workspace_dir: str, model_name: Optional[str] = None):
     table.add_column("Description", style="white")
 
     table.add_row("[1] 💻 Terminal CLI", "Interactive command line chat, live diffs & instant code edits")
-    table.add_row("[2] 🌐 Modern Web UI", "Browser dashboard with Code Editor, Visual Diff & File Tree")
-    table.add_row("[3] 🔍 Codebase Scan", "Deep structural audit, LOC stats, security check & TODOs")
-    table.add_row("[4] ⚙️ Select AI Model", "Switch between installed local Ollama/LM Studio models")
-    table.add_row("[5] 🛠️ Global Install", "Register 'vigh-02' command globally in Windows PATH")
-    table.add_row("[6] ❌ Exit", "Quit VIGH-02")
+    table.add_row("[2] 👥 Multi-Agent Swarm", "Orchestrator + Planner, Coder, Tester, Reviewer & Security swarm")
+    table.add_row("[3] 🌐 Modern Web UI", "Browser dashboard with Code Editor, Visual Diff & File Tree")
+    table.add_row("[4] 🔍 Codebase Scan", "Deep structural audit, LOC stats, security check & TODOs")
+    table.add_row("[5] ⚙️ Select AI Model", "Switch between installed local Ollama/LM Studio models")
+    table.add_row("[6] 🛠️ Global Install", "Register 'vigh-02' command globally in Windows PATH")
+    table.add_row("[7] ❌ Exit", "Quit VIGH-02")
 
     console.print(table)
     console.print()
 
-    choice = input("Enter choice [1-6] (Default is 1): ").strip() or "1"
+    choice = input("Enter choice [1-7] (Default is 1): ").strip() or "1"
 
     if choice == "1":
-        run_cli_session(workspace_dir=workspace_dir, model_name=active_m)
+        run_cli_session(workspace_dir=workspace_dir, model_name=active_m, mode="single")
     elif choice == "2":
-        start_web_server(workspace_dir=workspace_dir, open_browser=True)
+        run_cli_session(workspace_dir=workspace_dir, model_name=active_m, mode="multi")
     elif choice == "3":
+        start_web_server(workspace_dir=workspace_dir, open_browser=True)
+    elif choice == "4":
         scanner = CodeScannerTool()
         with console.status("[bold cyan]Scanning workspace...[/bold cyan]", spinner="dots"):
             res = scanner.run(path=".", workspace_root=workspace_dir)
@@ -106,14 +109,14 @@ def interactive_menu(workspace_dir: str, model_name: Optional[str] = None):
             render_scan_results(res)
         else:
             console.print(f"[bold red]Scan failed:[/bold red] {res.get('error')}")
-    elif choice == "4":
+    elif choice == "5":
         from vigh_agent.core.session import AgentSession
         temp_session = AgentSession(workspace_path=workspace_dir)
         handle_model_switch(temp_session)
         interactive_menu(workspace_dir, model_name=temp_session.model_name)
-    elif choice == "5":
-        install_global_wrapper()
     elif choice == "6":
+        install_global_wrapper()
+    elif choice == "7":
         console.print("[yellow]Goodbye![/yellow]")
         sys.exit(0)
     else:
@@ -131,6 +134,11 @@ def main():
         "--cli", "-c",
         action="store_true",
         help="Launch directly in interactive CLI terminal mode"
+    )
+    parser.add_argument(
+        "--multi", "-M",
+        action="store_true",
+        help="Launch directly in Multi-Agent Swarm mode (Planner, Coder, Tester, Reviewer, Security)"
     )
     parser.add_argument(
         "--web", "-w",
@@ -201,8 +209,12 @@ def main():
             console.print(f"[bold red]Scan failed:[/bold red] {res.get('error')}")
         return
 
+    if args.multi:
+        run_cli_session(workspace_dir=target_dir, model_name=args.model, mode="multi")
+        return
+
     if args.cli:
-        run_cli_session(workspace_dir=target_dir, model_name=args.model)
+        run_cli_session(workspace_dir=target_dir, model_name=args.model, mode="single")
         return
 
     if args.web:

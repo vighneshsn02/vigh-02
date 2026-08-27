@@ -12,6 +12,16 @@
 
 ## 🌟 Key Features
 
+- 👥 **Multi-Agent Swarm Mode**: Collaborative team of specialized autonomous agents:
+  - 👑 **Orchestrator**: Coordinates tasks, parallel verification, auto-fixing, and synthesis.
+  - 🧠 **Planner**: Analyzes codebase, dependencies, edge cases, and designs step-by-step task plans.
+  - 💻 **Coder**: Implements production-ready code, creates files, and applies surgical patches.
+  - 🧪 **Tester**: Discovers/generates unit test suites, executes test commands, and captures diagnostics.
+  - 🔍 **Reviewer**: Audits code quality, clean architecture, performance, and best practices.
+  - 🛡️ **Security**: Scans for vulnerabilities, hardcoded secrets, injection risks, and OWASP flaws.
+- ⚡ **Parallel Execution**: Concurrently runs Tester, Security, and Reviewer agents in parallel threads to accelerate turnaround time.
+- 🔄 **Self-Healing & Auto-Fix**: Automatically detects test failures or security issues, feeds tracebacks into the Coder, and re-verifies until fixed.
+- 🧠 **Thread-Safe Shared Blackboard Memory**: Maintains shared context, task state, diff history, and inter-agent messages across all turns.
 - 🔌 **100% Offline Capable**: Works directly with local AI models (Ollama, LM Studio, LocalAI, llama.cpp, vLLM). No internet connection or external API keys required!
 - 🌐 **Dual Interface (CLI & Web UI)**: Run directly in your terminal or launch a modern browser IDE with split-panel code editor, visual diffs, and project health dashboard.
 - ⚡ **Global Access Anywhere**: Activate with `vigh-02` in any folder or path on your computer.
@@ -84,6 +94,7 @@ When run without flags, **VIGH-02** displays an interactive selection menu:
 | Flag | Description | Example |
 | :--- | :--- | :--- |
 | `--cli`, `-c` | Launch directly in Terminal CLI mode | `vigh-02 --cli` |
+| `--multi`, `-M` | Launch directly in Multi-Agent Swarm mode | `vigh-02 --multi` |
 | `--web`, `-w` | Launch directly in Modern Web UI mode | `vigh-02 --web` |
 | `--scan`, `-s` | Run instant codebase scan and health audit | `vigh-02 --scan` |
 | `--dir <path>`, `-d` | Set custom target workspace directory | `vigh-02 -d C:\MyProject` |
@@ -98,6 +109,8 @@ When run without flags, **VIGH-02** displays an interactive selection menu:
 
 Inside the CLI terminal session, you can use built-in slash commands:
 
+- `/multi` — Toggle between Fast Single-Agent and Collaborative Multi-Agent Swarm Mode
+- `/agents` — View all specialized agents in the swarm (Planner, Coder, Tester, Reviewer, Security, Orchestrator)
 - `/scan` — Deeply scan folder structure, stats, languages, security vulnerabilities, and TODOs
 - `/edit <file>` — Request the AI to modify or create a specific file
 - `/read <file>` — View syntax-highlighted code with line numbers

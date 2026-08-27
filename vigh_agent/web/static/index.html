@@ -26,6 +26,11 @@
         <span id="offline-status-text">100% Offline AI</span>
       </div>
 
+      <button class="mode-toggle-btn" id="mode-toggle-btn" title="Click to toggle Single Agent vs Multi-Agent Swarm">
+        <span class="mode-icon" id="mode-icon">⚡</span>
+        <span id="mode-text">Single Agent</span>
+      </button>
+
       <div class="model-selector">
         <label for="model-select" style="font-size:12px; color:var(--text-secondary); font-weight:600;">MODEL:</label>
         <select id="model-select">
@@ -65,6 +70,14 @@
         <!-- Quick Actions Tab -->
         <div id="actions-tab" class="tab-pane" style="display:none;">
           <div class="quick-actions-panel">
+            <button class="action-card-btn" id="action-multi-agent">
+              <span class="icon">👥</span>
+              <div>
+                <div>Multi-Agent Swarm Task</div>
+                <small style="color:var(--text-secondary); font-size:11px;">Plan, Code, Test, Review & Auto-Fix</small>
+              </div>
+            </button>
+
             <button class="action-card-btn" id="action-scan">
               <span class="icon">🔍</span>
               <div>
@@ -84,8 +97,8 @@
             <button class="action-card-btn" id="action-tests">
               <span class="icon">🧪</span>
               <div>
-                <div>Generate Unit Tests</div>
-                <small style="color:var(--text-secondary); font-size:11px;">Create test suite for current code</small>
+                <div>Generate & Run Tests</div>
+                <small style="color:var(--text-secondary); font-size:11px;">Automatic test suite verification</small>
               </div>
             </button>
 
@@ -125,6 +138,7 @@
       <!-- Top Navigation Tabs -->
       <nav class="view-tabs">
         <button class="view-tab active" data-view="chat-view">💬 Chat & Agent</button>
+        <button class="view-tab" data-view="swarm-view">👥 Agent Swarm</button>
         <button class="view-tab" data-view="editor-view">📝 Code Editor</button>
         <button class="view-tab" data-view="diff-view">🔀 Changes & Diff</button>
         <button class="view-tab" data-view="scanner-view">🔍 Project Health</button>
@@ -156,6 +170,58 @@
               <button id="send-btn" class="send-btn">
                 <span>Send</span> ➔
               </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- View: Multi-Agent Swarm Dashboard -->
+      <div id="swarm-view" class="view-container">
+        <div class="scan-dashboard">
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+            <div>
+              <h2 style="margin:0; font-size:20px; font-weight:700;">👥 Autonomous Multi-Agent Swarm</h2>
+              <p style="color:var(--text-secondary); font-size:13px; margin:4px 0 0 0;">Specialized AI engineering team with parallel verification, shared memory & auto-repair.</p>
+            </div>
+            <div style="display:flex; gap:8px;">
+              <button class="btn-sm btn-primary" id="swarm-run-quick-task">⚡ Launch Swarm Task</button>
+              <button class="btn-sm" id="refresh-swarm-btn">🔄 Refresh Swarm</button>
+            </div>
+          </div>
+
+          <!-- Swarm Metrics -->
+          <div class="metrics-grid">
+            <div class="metric-card">
+              <span class="title">Active Team</span>
+              <span class="value" style="color:var(--accent-cyan);">6 Agents</span>
+            </div>
+            <div class="metric-card">
+              <span class="title">Verification Strategy</span>
+              <span class="value" style="color:var(--accent-green); font-size:18px;">Parallel Threads</span>
+            </div>
+            <div class="metric-card">
+              <span class="title">Self-Healing</span>
+              <span class="value" style="color:var(--accent-yellow); font-size:18px;">Auto-Fix Loop</span>
+            </div>
+            <div class="metric-card">
+              <span class="title">Shared Memory</span>
+              <span class="value" style="color:var(--accent-purple); font-size:18px;">Thread-Safe</span>
+            </div>
+          </div>
+
+          <!-- Specialized Agents Grid -->
+          <div class="dashboard-section">
+            <h3>Specialized Agents</h3>
+            <div class="agents-grid" id="agents-cards-container" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:12px;">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+
+          <!-- Shared Blackboard & Auto-Fix History -->
+          <div class="dashboard-section">
+            <h3>Shared Context & Auto-Fix Activity</h3>
+            <div id="swarm-blackboard-display" style="background:#0d1117; border:1px solid var(--border-color); border-radius:var(--radius-md); padding:16px; font-family:var(--font-mono); font-size:12px; color:var(--text-secondary); max-height:220px; overflow:auto;">
+              Ready. When Multi-Agent Swarm is invoked, shared tasks, diffs, and verification metrics will appear here in real-time.
             </div>
           </div>
         </div>

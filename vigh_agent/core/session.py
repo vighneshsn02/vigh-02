@@ -23,8 +23,18 @@ class AgentSession:
         self.provider: Optional[BaseProvider] = None
         self.total_tool_calls: int = 0
         self.files_modified: int = 0
+        self.mode: str = "single"  # "single" or "multi"
         
         self.initialize_provider()
+
+    def set_mode(self, mode: str) -> str:
+        """Sets execution mode to 'single' or 'multi'."""
+        clean_mode = mode.lower().strip()
+        if clean_mode in ("multi", "multi-agent", "swarm", "team"):
+            self.mode = "multi"
+        else:
+            self.mode = "single"
+        return self.mode
 
     def initialize_provider(self, provider_name: Optional[str] = None, model_name: Optional[str] = None):
         """Initializes or switches the active model provider."""
@@ -54,6 +64,7 @@ class AgentSession:
         return {
             "agent_name": "VIGH-02 AI AGENT",
             "version": "2.0.0",
+            "mode": self.mode,
             "workspace": str(self.workspace_root),
             "workspace_name": self.workspace_root.name,
             "provider": self.provider_name,

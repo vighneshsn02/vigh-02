@@ -28,6 +28,11 @@ web_agent = VighAgent(session=web_session)
 
 class ChatRequest(BaseModel):
     message: str
+    mode: Optional[str] = None
+
+
+class SwitchModeRequest(BaseModel):
+    mode: str
 
 
 class SwitchModelRequest(BaseModel):
@@ -53,6 +58,83 @@ class CommandRequest(BaseModel):
 def get_status():
     """Returns agent status, workspace, and model health."""
     return web_session.get_status()
+
+
+@router.get("/mode")
+def get_mode():
+    """Returns current active agent mode."""
+    return {"mode": web_session.mode}
+
+
+@router.post("/mode")
+def set_mode(req: SwitchModeRequest):
+    """Sets active agent mode (single vs multi)."""
+    new_mode = web_session.set_mode(req.mode)
+    return {"success": True, "mode": new_mode, "message": f"Switched to {new_mode}-agent mode"}
+
+
+@router.get("/agents")
+def get_agents():
+    """Returns specialized multi-agent swarm member information."""
+    return {
+        "active_mode": web_session.mode,
+        "agents": [
+            {
+                "id": "orchestrator",
+                "name": "Orchestrator Agent",
+                "role": "Team Lead & Workflow Dispatcher",
+                "icon": "👑",
+                "color": "#38bdf8",
+                "description": "Coordinates swarm planning, parallel verification, auto-repair cycles, and master synthesis."
+            },
+            {
+                "id": "planner",
+                "name": "Planner Agent",
+                "role": "Chief Software Architect",
+                "icon": "🧠",
+                "color": "#60a5fa",
+                "description": "Scans workspace layout, analyzes requirements, breaks work into discrete tasks and targets."
+            },
+            {
+                "id": "coder",
+                "name": "Coder Agent",
+                "role": "Senior Software Engineer",
+                "icon": "💻",
+                "color": "#34d399",
+                "description": "Writes production-grade code, applies surgical diffs, creates and edits workspace files."
+            },
+            {
+                "id": "tester",
+                "name": "Tester Agent",
+                "role": "QA & Test Automation Specialist",
+                "icon": "🧪",
+                "color": "#fbbf24",
+                "description": "Discovers and executes unit test suites, verifies functionality, and captures tracebacks."
+            },
+            {
+                "id": "reviewer",
+                "name": "Reviewer Agent",
+                "role": "Principal Code Reviewer",
+                "icon": "🔍",
+                "color": "#c084fc",
+                "description": "Evaluates code quality, DRY/SOLID compliance, algorithmic efficiency, and ratings."
+            },
+            {
+                "id": "security",
+                "name": "Security Agent",
+                "role": "Application Security Specialist",
+                "icon": "🛡️",
+                "color": "#f87171",
+                "description": "Scans for OWASP vulnerabilities, hardcoded secrets, injection flaws, and unsafe operations."
+            }
+        ]
+    }
+
+
+@router.get("/multi-agent/context")
+def get_multi_agent_context():
+    """Returns the latest shared blackboard memory snapshot."""
+    return web_agent.multi_orchestrator.context.get_summary_snapshot()
 
 
 @router.get("/models")
@@ -202,9 +284,10 @@ def execute_command(req: CommandRequest):
 def chat_stream_endpoint(req: ChatRequest):
     """
     SSE Streaming endpoint for real-time agent output.
+    Supports Single-Agent and Multi-Agent Swarm modes.
     """
     def event_generator():
-        for event in web_agent.chat_stream(req.message):
+        for event in web_agent.chat_stream(req.message, mode=req.mode):
             payload = {
                 "type": event.type,
                 "content": event.content,

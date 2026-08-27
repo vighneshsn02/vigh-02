@@ -41,11 +41,13 @@ PT_STYLE = Style.from_dict({
 })
 
 
-def run_cli_session(workspace_dir: Optional[str] = None, model_name: Optional[str] = None):
+def run_cli_session(workspace_dir: Optional[str] = None, model_name: Optional[str] = None, mode: Optional[str] = None):
     """Starts the interactive CLI coding session."""
     session = AgentSession(workspace_path=workspace_dir)
     if model_name:
         session.initialize_provider(model_name=model_name)
+    if mode:
+        session.set_mode(mode)
 
     agent = VighAgent(session=session)
     completer = VighCompleter(lambda: str(session.workspace_root))
@@ -54,17 +56,18 @@ def run_cli_session(workspace_dir: Optional[str] = None, model_name: Optional[st
     print_banner(
         model_name=session.model_name,
         workspace_dir=str(session.workspace_root),
-        mode="CLI"
+        mode=f"CLI ({session.mode.upper()}-AGENT)"
     )
 
-    console.print("[bold green]Agent ready![/bold green] Type your coding request, or type [bold cyan]/help[/bold cyan] for commands.\n")
+    console.print(f"[bold green]Agent ready in {session.mode.upper()}-AGENT mode![/bold green] Type your coding request, or type [bold cyan]/help[/bold cyan] for commands.\n")
 
     while True:
         try:
             ws_display = session.workspace_root.name or str(session.workspace_root)
+            mode_tag = " [MULTI]" if session.mode == "multi" else ""
             user_input = prompt_session.prompt(
                 [
-                    ("class:path", f"[{ws_display}] "),
+                    ("class:path", f"[{ws_display}{mode_tag}] "),
                     ("class:prompt", "vigh-02> ")
                 ],
                 style=PT_STYLE
@@ -85,6 +88,21 @@ def run_cli_session(workspace_dir: Optional[str] = None, model_name: Optional[st
 
                 elif cmd == "/help":
                     print_help()
+
+                elif cmd in ("/multi", "/mode"):
+                    if arg:
+                        new_mode = session.set_mode(arg)
+                    else:
+                        # Toggle
+                        new_mode = session.set_mode("single" if session.mode == "multi" else "multi")
+                    
+                    if new_mode == "multi":
+                        console.print("[bold cyan]👥 Switched to MULTI-AGENT MODE![/bold cyan] Orchestrator + Planner, Coder, Tester, Reviewer & Security swarm active.")
+                    else:
+                        console.print("[bold green]⚡ Switched to SINGLE-AGENT MODE![/bold green] Fast direct execution active.")
+
+                elif cmd == "/agents":
+                    print_agents_table()
 
                 elif cmd == "/scan":
                     with console.status("[bold cyan]Scanning codebase and auditing health...[/bold cyan]", spinner="dots"):
@@ -148,7 +166,7 @@ def run_cli_session(workspace_dir: Optional[str] = None, model_name: Optional[st
 
                 elif cmd == "/clear":
                     os.system("cls" if os.name == "nt" else "clear")
-                    print_banner(session.model_name, str(session.workspace_root), "CLI")
+                    print_banner(session.model_name, str(session.workspace_root), f"CLI ({session.mode.upper()}-AGENT)")
 
                 else:
                     console.print(f"[yellow]Unknown command '{cmd}'. Type /help for available commands.[/yellow]")
@@ -167,21 +185,46 @@ def run_cli_session(workspace_dir: Optional[str] = None, model_name: Optional[st
 
 def stream_agent_response(agent: VighAgent, user_prompt: str):
     """Streams live response tokens and executes tools with real-time UI."""
-    console.print(f"[bold cyan]🤖 VIGH-02 ({agent.session.model_name}):[/bold cyan]")
+    is_multi = (agent.session.mode == "multi")
+
+    if is_multi:
+        console.print("[bold bright_white]👑 VIGH-02 MULTI-AGENT SWARM INITIATED[/bold bright_white]\n")
+    else:
+        console.print(f"[bold cyan]🤖 VIGH-02 ({agent.session.model_name}):[/bold cyan]")
     
-    current_text = ""
+    current_agent = None
+
     for event in agent.chat_stream(user_prompt):
-        if event.type == "token" and event.content:
+        agent_name = (event.data.get("agent") if event.data else None) or "Agent"
+
+        if event.type == "phase_start" and event.content:
+            console.print(f"\n[bold cyan]{event.content}[/bold cyan]")
+
+        elif event.type == "phase_end" and event.content:
+            console.print(f"[dim green]{event.content}[/dim green]")
+
+        elif event.type == "agent_start":
+            current_agent = agent_name
+            badge_color = "cyan"
+            if agent_name.lower() == "planner": badge_color = "bright_blue"
+            elif agent_name.lower() == "coder": badge_color = "bright_green"
+            elif agent_name.lower() == "tester": badge_color = "bright_yellow"
+            elif agent_name.lower() == "reviewer": badge_color = "bright_magenta"
+            elif agent_name.lower() == "security": badge_color = "bright_red"
+            elif agent_name.lower() == "orchestrator": badge_color = "bright_cyan"
+
+            console.print(f"\n[{badge_color}]▶ [{agent_name.upper()}] Working...[/{badge_color}]")
+
+        elif event.type == "token" and event.content:
             try:
                 sys.stdout.write(event.content)
                 sys.stdout.flush()
             except Exception:
                 console.print(event.content, end="")
-            current_text += event.content
 
         elif event.type == "tool_start":
             tool_name = event.data.get("name", "tool") if event.data else "tool"
-            console.print(f"\n[dim yellow]⚡ Executing {tool_name}...[/dim yellow]")
+            console.print(f"\n[dim yellow]⚡ [{agent_name}] Executing {tool_name}...[/dim yellow]")
 
         elif event.type == "tool_end":
             tool_name = event.data.get("name", "") if event.data else ""
@@ -195,8 +238,41 @@ def stream_agent_response(agent: VighAgent, user_prompt: str):
             if event.content:
                 render_diff(event.content, event.data.get("path", "Modified File") if event.data else "File")
 
+        elif event.type == "autofix_start":
+            console.print(f"\n[bold yellow]{event.content}[/bold yellow]")
+
+        elif event.type == "autofix_complete":
+            console.print(f"[bold green]{event.content}[/bold green]")
+
+        elif event.type == "test_result":
+            status_color = "green" if "PASSED" in (event.content or "") else "red"
+            console.print(f"[{status_color}]🧪 {event.content}[/{status_color}]")
+
+        elif event.type == "security_audit":
+            console.print(f"[bold bright_red]🛡️ {event.content}[/bold bright_red]")
+
+        elif event.type == "review_result":
+            console.print(f"[bold magenta]🔍 {event.content}[/bold magenta]")
+
         elif event.type == "error":
             console.print(f"\n[bold red]Error:[/bold red] {event.content}")
+
+
+def print_agents_table():
+    """Prints specialized agents overview table."""
+    table = Table(title="[bold cyan]⚡ VIGH-02 Specialized Multi-Agent Team[/bold cyan]", border_style="cyan")
+    table.add_column("Agent", style="bold yellow")
+    table.add_column("Role", style="bold white")
+    table.add_column("Key Capabilities & Tools", style="dim")
+
+    table.add_row("👑 Orchestrator", "Team Lead & Workflow Coordinator", "Parallel dispatch, auto-fix supervision, final synthesis")
+    table.add_row("🧠 Planner", "Chief Software Architect", "Scope analysis, file targeting, task breakdown (`scan_folder`, `read_file`)")
+    table.add_row("💻 Coder", "Senior Software Engineer", "Complete implementations, surgical patches (`edit_file`, `write_file`)")
+    table.add_row("🧪 Tester", "QA & Test Automation Engineer", "Test discovery, unit test execution, failure diagnostics (`run_command`)")
+    table.add_row("🔍 Reviewer", "Principal Code Reviewer", "Architecture analysis, DRY/SOLID audit, score rating (`git_diff`)")
+    table.add_row("🛡️ Security", "Application Security Specialist", "Vulnerability scanning, secret detection, OWASP audit (`scan_folder`)")
+
+    console.print(table)
 
 
 def handle_interactive_edit(agent: VighAgent, file_path: str):
@@ -245,6 +321,8 @@ def print_help():
     table.add_column("Command", style="bold yellow")
     table.add_column("Description", style="white")
 
+    table.add_row("/multi", "Toggle between Fast Single-Agent and Collaborative Multi-Agent Swarm Mode")
+    table.add_row("/agents", "Display specialized agents (Planner, Coder, Tester, Reviewer, Security, Orchestrator)")
     table.add_row("/scan", "Deeply scan folder structure, stats, languages, security vulnerabilities, and TODOs")
     table.add_row("/edit <file>", "Directly request the AI to modify or create a specific file")
     table.add_row("/read <file>", "View syntax-highlighted code with line numbers")

@@ -9,33 +9,68 @@ from pydantic import BaseModel
 
 from vigh_agent.core.session import AgentSession
 from vigh_agent.core.memory import ConversationMemory
+from vigh_agent.core.multi_agent import MultiAgentOrchestrator, MultiAgentEvent
 from vigh_agent.tools.registry import tool_registry
 from vigh_agent.models.provider import ToolCall, StreamChunk
 
 
 class AgentEvent(BaseModel):
     """Event emitted during agent execution."""
-    type: str  # 'token', 'tool_start', 'tool_end', 'diff', 'error', 'done'
+    type: str  # 'token', 'tool_start', 'tool_end', 'diff', 'error', 'done', 'agent_start', 'phase_start', 'phase_end', 'test_result', 'security_audit', 'review_result', 'autofix_start', 'autofix_complete', 'final_response'
     content: Optional[str] = None
     data: Optional[Dict[str, Any]] = None
 
 
 class VighAgent:
-    """Core autonomous coding agent."""
+    """Core autonomous coding agent supporting Single-Agent and Multi-Agent modes."""
 
     def __init__(self, session: Optional[AgentSession] = None):
         self.session = session or AgentSession()
         self.memory = ConversationMemory()
         self.max_steps = 10
+        self.multi_orchestrator = MultiAgentOrchestrator(session=self.session)
 
     def chat_stream(
         self,
         user_input: str,
+        mode: Optional[str] = None,
         on_event: Optional[Callable[[AgentEvent], None]] = None
     ) -> Generator[AgentEvent, None, None]:
         """
         Executes a multi-step streaming agent loop in response to user input.
+        Supports both Single-Agent and Multi-Agent swarm workflows.
         """
+        active_mode = (mode or self.session.mode or "single").lower()
+
+        if active_mode in ("multi", "multi-agent", "swarm", "team"):
+            for multi_evt in self.multi_orchestrator.run_stream(user_input):
+                # Translate MultiAgentEvent into AgentEvent for downstream consumers
+                event_data = multi_evt.data or {}
+                if "agent" not in event_data:
+                    event_data["agent"] = multi_evt.agent
+                if "phase" not in event_data:
+                    event_data["phase"] = multi_evt.phase
+
+                # Map multi_agent event types
+                out_type = multi_evt.type
+                if multi_evt.type == "agent_token":
+                    out_type = "token"
+                elif multi_evt.type == "agent_tool_start":
+                    out_type = "tool_start"
+                elif multi_evt.type == "agent_tool_end":
+                    out_type = "tool_end"
+
+                evt = AgentEvent(
+                    type=out_type,
+                    content=multi_evt.content,
+                    data=event_data
+                )
+                if on_event:
+                    on_event(evt)
+                yield evt
+            return
+
+        # ---------------- Single Agent Mode ----------------
         self.memory.add_user_message(user_input)
         workspace = str(self.session.workspace_root)
         provider = self.session.provider
@@ -138,5 +173,6 @@ class VighAgent:
         yield done_evt
 
     def reset_conversation(self):
-        """Resets agent conversation history."""
+        """Resets agent conversation history and multi-agent context."""
         self.memory.reset()
+        self.multi_orchestrator.reset()
